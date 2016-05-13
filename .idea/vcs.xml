@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/ArtificialIntelligence" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/DataMining" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/SA_Project" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/SentimentAnalysis" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/other python works" vcs="" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Artificial-Intelligence" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Data-Mining" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Sentimental-Analysis" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../projects" vcs="Git" />
   </component>
 </project>
