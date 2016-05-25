@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f78fe18-6d82-4e14-8efd-987bd19b2bea" name="Default" comment="" />
+    <list default="true" id="6f78fe18-6d82-4e14-8efd-987bd19b2bea" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PycharmProjects.iml" afterPath="$PROJECT_DIR$/.idea/PycharmProjects.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace (1).xml" afterPath="$PROJECT_DIR$/.idea/workspace (1).xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <list id="6e5e6ba6-b318-4d44-ac5f-20a1279d2ee4" name="New changelist" comment="" />
     <ignored path="PythonCodes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +44,7 @@
       </list>
     </option>
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../projects" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
@@ -45,8 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DataMining/HW4/solar flare data set/flare.data2.txt" />
-        <option value="$PROJECT_DIR$/DataMining/HW4/mushroom data set/agaricus-lepiota.data.txt" />
         <option value="$PROJECT_DIR$/DataMining/HW4/assRules2.py" />
         <option value="$PROJECT_DIR$/DataMining/HW4/temp.py" />
         <option value="$USER_HOME$/Desktop/Sample Work/HW4 question 3/assocRulesHW3d.py" />
@@ -96,6 +101,8 @@
         <option value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/weighted_sales_mapper.py" />
         <option value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/weighted_sales_mapper2.py" />
         <option value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/trend_analysis.py" />
+        <option value="$PROJECT_DIR$/../projects/Data mining course project/trend_analysis.py" />
+        <option value="$PROJECT_DIR$/../projects/Data mining course project/trend.py" />
       </list>
     </option>
   </component>
@@ -130,46 +137,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PythonCodes" />
+              <option name="myItemId" value="course_works" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonCodes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonCodes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonCodes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonCodes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Data-Mining-Project--Walmart-Weekly-Forecast" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="162" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
@@ -188,7 +171,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="824" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project_works" />
   </component>
   <component name="Push.Settings">
     <excluded-roots>
@@ -211,41 +194,7 @@
       <recent name="D:\Google Drive\PythonCodes" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.trend_analysis">
-    <configuration default="false" name="naive_classifier_1a" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataMining/HW5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataMining/HW5/naive_classifier_1a.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="naive_classifier_1b" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataMining/HW5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataMining/HW5/naive_classifier_1b.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.weighted_sales_mapper (1)">
     <configuration default="false" name="weighted_sales_mapper" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -297,6 +246,40 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="trend_analysis (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../projects/Data mining course project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="projects" />
+      <option name="SCRIPT_NAME" value="D:\Google Drive\projects\Data mining course project\various_weights_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="weighted_sales_mapper (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../projects/Data mining course project" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="projects" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../projects/Data mining course project/weighted_sales_mapper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
       <method />
     </configuration>
@@ -315,6 +298,18 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PycharmProjects" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -423,23 +418,25 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.naive_classifier_1a" />
-      <item index="1" class="java.lang.String" itemvalue="Python.naive_classifier_1b" />
-      <item index="2" class="java.lang.String" itemvalue="Python.weighted_sales_mapper" />
-      <item index="3" class="java.lang.String" itemvalue="Python.weighted_sales_mapper2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.trend_analysis" />
+      <item index="0" class="java.lang.String" itemvalue="Python.weighted_sales_mapper" />
+      <item index="1" class="java.lang.String" itemvalue="Python.weighted_sales_mapper2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.trend_analysis" />
+      <item index="3" class="java.lang.String" itemvalue="Python.trend_analysis (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.weighted_sales_mapper (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.trend_analysis" />
-        <item index="1" class="java.lang.String" itemvalue="Python.weighted_sales_mapper2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.weighted_sales_mapper" />
-        <item index="3" class="java.lang.String" itemvalue="Python.naive_classifier_1b" />
-        <item index="4" class="java.lang.String" itemvalue="Python.naive_classifier_1a" />
+        <item index="0" class="java.lang.String" itemvalue="Python.weighted_sales_mapper (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.trend_analysis (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.trend_analysis" />
+        <item index="3" class="java.lang.String" itemvalue="Python.weighted_sales_mapper2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.weighted_sales_mapper" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -449,113 +446,132 @@
       <changelist id="6e5e6ba6-b318-4d44-ac5f-20a1279d2ee4" name="New changelist" comment="" />
       <created>1457065197988</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1457065197988</updated>
     </task>
     <task id="LOCAL-00001" summary="Update-&#10;&#10;I have changed the date to week number which i feel will be comfortable.&#10;&#10;Reasons: &#10;&#10;1.Our goal is more week so we interested in the week than the entire date&#10;2.Now it must be easy to figure out in which we get christmas or other by just knowing the date of event">
       <created>1458198094576</created>
       <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1458198094576</updated>
     </task>
     <task id="LOCAL-00002" summary="minor update">
       <created>1458844211620</created>
       <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
       <updated>1458844211620</updated>
     </task>
     <task id="LOCAL-00003" summary="Figured out that temperature feature is only correlated for a very few departments and that too in only particular stores.&#10;&#10;We can say that is not correlated completely or we can also add a rule that whenever that particular department of that stores needs a prediction we can include temperature to impprove accuracy of the prediction&#10;&#10;I will also check the correlation with other features and let you know on that.">
       <created>1458906897152</created>
       <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
       <updated>1458906897152</updated>
     </task>
     <task id="LOCAL-00004" summary="prolog miniproject update">
       <created>1459888344034</created>
       <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1459888344034</updated>
     </task>
     <task id="LOCAL-00005" summary="need to include threading">
       <created>1460429705925</created>
       <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1460429705925</updated>
     </task>
     <task id="LOCAL-00006" summary="moved out all unwanted files as of now into the garbage folder.&#10;replaced the train with the csv file I showed to you, which is a mixture of historical features with train data.&#10;So accordingly i deleted some enum functions and other files from the oops_objects file.&#10;Please take a look at everything once">
       <created>1460582913259</created>
       <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1460582913259</updated>
     </task>
     <task id="LOCAL-00007" summary="Sam,&#10;&#10;Please download this into a different location as I have moved or deleted files from that you uploaded.&#10;&#10;I moved on with the coding from your idea and implemented without using oops here, the code seems to work fine when under basic testing conditions where I have checked for one instance in non holiday and one instance in holiday.&#10;&#10;What we need to figure out here more include primarly your idea of how to give the weights to the weeks based on how far they move away from the choosen week. I basically did this using just the average but code up in way so that we can still include this feature.&#10;&#10;About the code:&#10;&#10;I haved modified pickling functions. Now we have only 4 funtions for pickling(pickling primary,seconday, unpickling primary and secondary)&#10;&#10;sales mapper code is newly added which maps the sales according to our discussion yesterday.&#10;&#10;If any else is required we can finish it in the class&#10;&#10;&#10;&#10;">
       <created>1460646636597</created>
       <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
       <updated>1460646636597</updated>
     </task>
     <task id="LOCAL-00008" summary="Weighted mapping update with minor errors">
       <created>1460723518876</created>
       <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
       <updated>1460723518876</updated>
     </task>
     <task id="LOCAL-00009" summary="Fixed all errors and updated the coded to run for week window of range from 2 to 5">
       <created>1460732859204</created>
       <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
       <updated>1460732859204</updated>
     </task>
     <task id="LOCAL-00010" summary="Fixed all errors and updated the coded to run for week window of range from 2 to 5">
       <created>1460732887121</created>
       <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
       <updated>1460732887121</updated>
     </task>
     <task id="LOCAL-00011" summary="file and pickle to disk write error">
       <created>1460734626840</created>
       <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
       <updated>1460734626840</updated>
     </task>
     <task id="LOCAL-00012" summary="update with comments in all files">
       <created>1461132149090</created>
       <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
       <updated>1461132149090</updated>
     </task>
     <task id="LOCAL-00013" summary="update for udit">
       <created>1461357378080</created>
       <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
       <updated>1461357378080</updated>
     </task>
     <task id="LOCAL-00014" summary="code refining">
       <created>1461400137927</created>
       <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
       <updated>1461400137927</updated>
     </task>
     <task id="LOCAL-00015" summary="code refining">
       <created>1461400152353</created>
       <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
       <updated>1461400152353</updated>
     </task>
     <task id="LOCAL-00016" summary="weighting and other changes with minor math bug fixes">
       <created>1461871093633</created>
       <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
       <updated>1461871093633</updated>
     </task>
     <task id="LOCAL-00017" summary="weighting and other changes with minor math bug fixes">
       <created>1461871101118</created>
       <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
       <updated>1461871101118</updated>
     </task>
     <task id="LOCAL-00018" summary="trend anaylsis upload">
       <created>1461975576629</created>
       <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
       <updated>1461975576629</updated>
     </task>
@@ -568,14 +584,14 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20982143" sideWeight="0.48989898" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20863836" sideWeight="0.48989898" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34355828" sideWeight="0.4233631" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3422222" sideWeight="0.4233631" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32515338" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27105665" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26993865" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22693452" sideWeight="0.510101" order="1" side_tool="true" content_ui="tabs" />
@@ -584,7 +600,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34355828" sideWeight="0.5766369" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3422222" sideWeight="0.5766369" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32465544" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -665,57 +681,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/data/garbage_files/features.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/data/garbage_files/train_features.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/trend.py" />
+    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/storeSelector.py" />
+    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/weighted_sales_mapper.py" />
+    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/storeSelector.py" />
+    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/weighted_sales_mapper.py" />
+    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/storeSelector.py" />
+    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/weighted_sales_mapper.py" />
     <entry file="file://C:/Anaconda3/envs/untitled/Lib/site-packages/pandas/core/indexing.py" />
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/data/features_merger_pickles/train+features">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/data/garbage_files/train.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="38" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/data/historical_features.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Anaconda3/envs/untitled/Lib/site-packages/pandas/io/pickle.py" />
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/data/train.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SA_Project/Hashtags_Frequencies.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Anaconda3/envs/untitled/Lib/threading.py" />
     <entry file="file://C:/Anaconda3/envs/untitled/Lib/codecs.py" />
     <entry file="file://C:/Anaconda3/envs/untitled/Lib/site-packages/numpy/core/_methods.py" />
@@ -727,173 +701,16 @@
     <entry file="file://C:/Python34/Lib/site-packages/numpy/lib/type_check.py" />
     <entry file="file://C:/Python34/Lib/site-packages/numpy/core/__init__.py" />
     <entry file="file://C:/Python34/Lib/site-packages/numpy/add_newdocs.py" />
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/prettytable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Anaconda3/envs/untitled/Lib/site-packages/pandas/core/ops.py" />
     <entry file="file://C:/Anaconda3/envs/untitled/Lib/site-packages/pandas/indexes/base.py" />
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/data/stores.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Anaconda3/envs/untitled/Lib/site-packages/pandas/core/generic.py" />
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/data/output/weightedWindowLT2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1649" column="31" selection-start-line="1649" selection-start-column="31" selection-end-line="1649" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/data/test.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/data/train_features.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Anaconda3/envs/untitled/Lib/site-packages/pandas/core/series.py" />
     <entry file="file://$USER_HOME$/.PyCharm50/idea.properties" />
     <entry file="file://$USER_HOME$/.PyCharm50/pycharm.exe.vmoptions" />
-    <entry file="file://$PROJECT_DIR$/SA_Project/tweetCollector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="239" column="0" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/features_merger_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/data_spliting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/read_data_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/nullsCalculator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/nulls2avg_mapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/sales_mapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="53" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SA_Project/SVM_Fine_grained_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="106" column="77" selection-start-line="106" selection-start-column="77" selection-end-line="106" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SA_Project/SVM_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SA_Project/extract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataMining/HW5/naive_classifier_1a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataMining/HW5/naive_classifier_1b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Anaconda3/envs/untitled/Lib/site-packages/pandas/core/frame.py" />
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/data/output1/trendWeight3.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/weighted_sales_mapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/trend_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="90" selection-start-line="62" selection-start-column="90" selection-end-line="62" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/null2CloseMapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/storeSelector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/correlation_checker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/various_weights_model.py" />
+    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/weighted_sales_mapper.py" />
+    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/storeSelector.py" />
+    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/trend.py" />
   </component>
 </project>
