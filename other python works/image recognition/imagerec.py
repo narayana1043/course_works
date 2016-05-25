@@ -6,7 +6,6 @@ from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
 from statistics import mean
-import time
 from collections import Counter
 
 def createExammples():
@@ -109,22 +108,23 @@ def whatNumIsThis(filePath):
 
     plt.show()
 
-i = Image.open('./images/numbers/0.1.png')
-iar = np.asarray(i)
-
-i2 = Image.open('./images/numbers/y0.4.png')
-iar2 = np.asarray(i2)
-
-i3 = Image.open('./images/numbers/y0.5.png')
-iar3 = np.asarray(i3)
-
-i4 = Image.open('./images/sentdex.png')
-iar4 = np.asarray(i4)
-
 createExammples()
 whatNumIsThis('images/test.png')
 
 
+
+# i = Image.open('./images/numbers/0.1.png')
+# iar = np.asarray(i)
+#
+# i2 = Image.open('./images/numbers/y0.4.png')
+# iar2 = np.asarray(i2)
+#
+# i3 = Image.open('./images/numbers/y0.5.png')
+# iar3 = np.asarray(i3)
+#
+# i4 = Image.open('./images/sentdex.png')
+# iar4 = np.asarray(i4)
+#
 # fig = plt.figure()
 # ax1 = plt.subplot2grid((8,6), (0,0), rowspan=4, colspan=3)
 # ax2 = plt.subplot2grid((8,6), (4,0), rowspan=4, colspan=3)

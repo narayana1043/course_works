@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f78fe18-6d82-4e14-8efd-987bd19b2bea" name="Default" comment="">
-<<<<<<< HEAD
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PycharmProjects.iml" afterPath="$PROJECT_DIR$/.idea/PycharmProjects.iml" />
+    <list default="true" id="96e2192f-61a2-4bac-aa5e-2046b36354ef" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/PycharmProjects.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace (1).xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace (2).xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace (3).xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace (1).xml" afterPath="$PROJECT_DIR$/.idea/workspace (1).xml" />
-=======
->>>>>>> fb1712028c29e90a61344a5d0d303541cf2899ee
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other python works/image recognition/imagerec.py" afterPath="$PROJECT_DIR$/other python works/image recognition/imagerec.py" />
     </list>
-    <list id="6e5e6ba6-b318-4d44-ac5f-20a1279d2ee4" name="New changelist" comment="" />
-    <ignored path="PythonCodes.iws" />
+    <ignored path="course_works.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,173 +30,52 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="PythonCodes" />
+    <favorites_list name="course_works" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="storeSelector.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/storeSelector.py">
+    <leaf>
+      <file leaf-file-name="imagerRec.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../project_works/digit-recognition/using-python/imagerRec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
-                <element signature="e#0#33#0" expanded="true" />
+                <element signature="e#1#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sales_mapper.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/sales_mapper.py">
+      <file leaf-file-name="imagerec.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/other python works/image recognition/imagerec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="675">
+              <caret line="126" column="2" selection-start-line="126" selection-start-column="2" selection-end-line="126" selection-end-column="2" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <marker date="1461332480952" expanded="true" signature="766:768" placeholder="..." />
+                <element signature="e#48#69#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="weighted_sales_mapper.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/weighted_sales_mapper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="various_weights_model.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/various_weights_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="trend_analysis.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/trend_analysis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="veera.marni &lt;narayana1043@gmail.com&gt;" />
-      </list>
-    </option>
-    <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../projects" />
-    <option name="PUSH_TAGS">
-      <GitPushTagMode />
-    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DataMining/HW4/assRules2.py" />
-        <option value="$PROJECT_DIR$/DataMining/HW4/temp.py" />
-        <option value="$USER_HOME$/Desktop/Sample Work/HW4 question 3/assocRulesHW3d.py" />
-        <option value="$USER_HOME$/Desktop/Sample Work/HW4 question 3/assocRulesHW3c.py" />
-        <option value="$PROJECT_DIR$/DataMining/HW4/nursery data set/nursery.data.txtPrepocessedData.txt" />
-        <option value="$PROJECT_DIR$/DataMining/HW4/assocRulesHW3d.py" />
-        <option value="$PROJECT_DIR$/DataMining/HW4/assocRulesHW3c.py" />
-        <option value="$PROJECT_DIR$/DataMining/HW4/assocRulesHW3e.py" />
-        <option value="$PROJECT_DIR$/DataMining/HW4/assocRulesHW3f.py" />
-        <option value="$PROJECT_DIR$/DataMining/HW4/nursery data set/nursery.data.txtShruthi" />
-        <option value="$PROJECT_DIR$/DataMining/HW4/assocRulesHW3a&amp;b.py" />
-        <option value="$PROJECT_DIR$/DataMining/HW4/assocRulesHW4a&amp;b.py" />
-        <option value="$PROJECT_DIR$/DataMining/HW4/assocRulesHW4c.py" />
-        <option value="$PROJECT_DIR$/DataMining/HW4/assocRulesHW4d.py" />
-        <option value="$PROJECT_DIR$/DataMining/HW4/assocRulesHW4e.py" />
-        <option value="$PROJECT_DIR$/DataMining/HW4/assocRulesHW4f.py" />
-        <option value="$PROJECT_DIR$/DM_Project/correlation_checker.py" />
-        <option value="$PROJECT_DIR$/DM_Project/data/test.csv" />
-        <option value="$PROJECT_DIR$/other python works/sample_cuda.py" />
-        <option value="$PROJECT_DIR$/DM_Project/sales_mapper.py" />
-        <option value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/data/non_holiday_sales_predictions.py" />
-        <option value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/SamRegression/regression.py" />
-        <option value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/Readme" />
-        <option value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/oop_objects.py" />
-        <option value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/data/features_merger_pickles/features_merger_train.py" />
-        <option value="$PROJECT_DIR$/SA_Project/extract_tweets.py" />
-        <option value="$PROJECT_DIR$/SA_Project/extractTweets.py" />
-        <option value="$PROJECT_DIR$/SA_Project/extract.py" />
-        <option value="$PROJECT_DIR$/SA_Project/Hashtags_Frequencies.py" />
-        <option value="$PROJECT_DIR$/twitter_access.py" />
-        <option value="$PROJECT_DIR$/SA_Project/tweetCollector.py" />
-        <option value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/python-tabulate/tabulate.py" />
-        <option value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/storeSelector.py" />
-        <option value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/read_data_functions.py" />
-        <option value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/correlation_checker.py" />
-        <option value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/data_spliting.py" />
-        <option value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/features_merger_train.py" />
-        <option value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/nullsCalculator.py" />
-        <option value="$PROJECT_DIR$/DataMining/HW5/Naive Bayes Classifier.py" />
-        <option value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/null2CloseMapper.py" />
-        <option value="$PROJECT_DIR$/DataMining/HW5/naive_classifier.py" />
-        <option value="$PROJECT_DIR$/DataMining/HW5/naive_classifier_1b.py" />
-        <option value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/sales_mapper.py" />
-        <option value="$PROJECT_DIR$/SA_Project/SVM_Fine_grained_analysis.py" />
-        <option value="$PROJECT_DIR$/SA_Project/SVM_v2.py" />
-        <option value="$PROJECT_DIR$/DataMining/HW5/naive_classifier_1a.py" />
-        <option value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/weighted_sales_mapper.py" />
-        <option value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/weighted_sales_mapper2.py" />
-        <option value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/trend_analysis.py" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/../projects/Data mining course project/trend_analysis.py" />
-        <option value="$PROJECT_DIR$/../projects/Data mining course project/trend.py" />
-=======
-        <option value="$PROJECT_DIR$/../projects/Data mining course project/pickles/trend_analysis.py" />
-        <option value="$PROJECT_DIR$/../projects/Data mining course project/trend_analysis.py" />
->>>>>>> fb1712028c29e90a61344a5d0d303541cf2899ee
+        <option value="$PROJECT_DIR$/../project_works/digit-recognition/using-python/imagerRec.py" />
+        <option value="$PROJECT_DIR$/other python works/image recognition/imagerec.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="1366" />
-    <option name="height" value="744" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Python</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>PyInterpreterInspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -221,22 +102,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-      <pane id="Scratches" />
-      <pane id="Scope" />
-=======
       <pane id="Scope" />
       <pane id="Scratches" />
->>>>>>> fb1712028c29e90a61344a5d0d303541cf2899ee
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="course_works" />
-<<<<<<< HEAD
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-=======
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,7 +118,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
+              <option name="myItemId" value="project_works" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -256,169 +128,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
+              <option name="myItemId" value="project_works" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Data mining course project" />
+              <option name="myItemId" value="digit-recognition" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
->>>>>>> fb1712028c29e90a61344a5d0d303541cf2899ee
+            <PATH_ELEMENT>
+              <option name="myItemId" value="using-python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="course_works" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project_works" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="digit-recognition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-<<<<<<< HEAD
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-=======
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
->>>>>>> fb1712028c29e90a61344a5d0d303541cf2899ee
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="68" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="69" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="69" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="427" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="82" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="82" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="83" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="386" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
-<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../project_works" />
-=======
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projects" />
->>>>>>> fb1712028c29e90a61344a5d0d303541cf2899ee
   </component>
-  <component name="Push.Settings">
-    <excluded-roots>
-      <path value="$PROJECT_DIR$/ArtificialIntelligence" />
-    </excluded-roots>
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../projects/Data mining course project" />
-      <recent name="D:\Google Drive\PythonCodes\Data-Mining-Project--Walmart-Weekly-Forecast\data" />
-      <recent name="D:\Google Drive\PythonCodes\Data-Mining-Project--Walmart-Weekly-Forecast" />
-      <recent name="D:\Google Drive\PythonCodes\Data-Mining-Project--Walmart-Weekly-Forecast\data\garbage_files" />
-      <recent name="D:\Google Drive\PythonCodes\Data-Mining-Project--Walmart-Weekly-Forecast\data\features_merger_pickles" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Google Drive\PythonCodes\Data-Mining-Project--Walmart-Weekly-Forecast\data\output1" />
-      <recent name="D:\Google Drive\PythonCodes\DataMining\HW5" />
-      <recent name="D:\Google Drive\PythonCodes\Data-Mining-Project--Walmart-Weekly-Forecast\data" />
-      <recent name="D:\Google Drive\PythonCodes\Data-Mining-Project--Walmart-Weekly-Forecast" />
-      <recent name="D:\Google Drive\PythonCodes\Data-Mining-Project--Walmart-Weekly-Forecast\data\raw_frame_pickles" />
-    </key>
-  </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Python.weighted_sales_mapper (1)">
-=======
-  <component name="RunManager" selected="Python.trend_analysis">
->>>>>>> fb1712028c29e90a61344a5d0d303541cf2899ee
-    <configuration default="false" name="weighted_sales_mapper" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/weighted_sales_mapper.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="weighted_sales_mapper2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
-      <option name="SCRIPT_NAME" value="D:\Google Drive\PythonCodes\Data-Mining-Project--Walmart-Weekly-Forecast\trend_analysis.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="trend_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast/trend_analysis.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="trend_analysis (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../projects/Data mining course project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="projects" />
-      <option name="SCRIPT_NAME" value="D:\Google Drive\projects\Data mining course project\various_weights_model.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="weighted_sales_mapper (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-<<<<<<< HEAD
-      <option name="SDK_HOME" value="C:\Anaconda3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../projects/Data mining course project" />
-      <option name="IS_MODULE_SDK" value="false" />
-=======
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../projects/Data mining course project" />
-      <option name="IS_MODULE_SDK" value="true" />
->>>>>>> fb1712028c29e90a61344a5d0d303541cf2899ee
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="projects" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../projects/Data mining course project/weighted_sales_mapper.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
-      <method />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -427,10 +170,10 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
+      <module name="course_works" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -445,7 +188,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
+      <module name="course_works" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -457,7 +200,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
+      <module name="course_works" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -476,7 +219,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
+      <module name="course_works" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -495,7 +238,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
+      <module name="course_works" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -516,7 +259,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
+      <module name="course_works" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -538,7 +281,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
+      <module name="course_works" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -553,491 +296,70 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.weighted_sales_mapper" />
-      <item index="1" class="java.lang.String" itemvalue="Python.weighted_sales_mapper2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.trend_analysis" />
-      <item index="3" class="java.lang.String" itemvalue="Python.trend_analysis (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.weighted_sales_mapper (1)" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.weighted_sales_mapper (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.trend_analysis (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.trend_analysis" />
-        <item index="3" class="java.lang.String" itemvalue="Python.weighted_sales_mapper2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.weighted_sales_mapper" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6f78fe18-6d82-4e14-8efd-987bd19b2bea" name="Default" comment="" />
-      <changelist id="6e5e6ba6-b318-4d44-ac5f-20a1279d2ee4" name="New changelist" comment="" />
-      <created>1457065197988</created>
+      <changelist id="96e2192f-61a2-4bac-aa5e-2046b36354ef" name="Default" comment="" />
+      <created>1464212985231</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1457065197988</updated>
+      <updated>1464212985231</updated>
     </task>
-    <task id="LOCAL-00001" summary="Update-&#10;&#10;I have changed the date to week number which i feel will be comfortable.&#10;&#10;Reasons: &#10;&#10;1.Our goal is more week so we interested in the week than the entire date&#10;2.Now it must be easy to figure out in which we get christmas or other by just knowing the date of event">
-      <created>1458198094576</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1458198094576</updated>
-    </task>
-    <task id="LOCAL-00002" summary="minor update">
-      <created>1458844211620</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1458844211620</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Figured out that temperature feature is only correlated for a very few departments and that too in only particular stores.&#10;&#10;We can say that is not correlated completely or we can also add a rule that whenever that particular department of that stores needs a prediction we can include temperature to impprove accuracy of the prediction&#10;&#10;I will also check the correlation with other features and let you know on that.">
-      <created>1458906897152</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1458906897152</updated>
-    </task>
-    <task id="LOCAL-00004" summary="prolog miniproject update">
-      <created>1459888344034</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1459888344034</updated>
-    </task>
-    <task id="LOCAL-00005" summary="need to include threading">
-      <created>1460429705925</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1460429705925</updated>
-    </task>
-    <task id="LOCAL-00006" summary="moved out all unwanted files as of now into the garbage folder.&#10;replaced the train with the csv file I showed to you, which is a mixture of historical features with train data.&#10;So accordingly i deleted some enum functions and other files from the oops_objects file.&#10;Please take a look at everything once">
-      <created>1460582913259</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1460582913259</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Sam,&#10;&#10;Please download this into a different location as I have moved or deleted files from that you uploaded.&#10;&#10;I moved on with the coding from your idea and implemented without using oops here, the code seems to work fine when under basic testing conditions where I have checked for one instance in non holiday and one instance in holiday.&#10;&#10;What we need to figure out here more include primarly your idea of how to give the weights to the weeks based on how far they move away from the choosen week. I basically did this using just the average but code up in way so that we can still include this feature.&#10;&#10;About the code:&#10;&#10;I haved modified pickling functions. Now we have only 4 funtions for pickling(pickling primary,seconday, unpickling primary and secondary)&#10;&#10;sales mapper code is newly added which maps the sales according to our discussion yesterday.&#10;&#10;If any else is required we can finish it in the class&#10;&#10;&#10;&#10;">
-      <created>1460646636597</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1460646636597</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Weighted mapping update with minor errors">
-      <created>1460723518876</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1460723518876</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Fixed all errors and updated the coded to run for week window of range from 2 to 5">
-      <created>1460732859204</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1460732859204</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Fixed all errors and updated the coded to run for week window of range from 2 to 5">
-      <created>1460732887121</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1460732887121</updated>
-    </task>
-    <task id="LOCAL-00011" summary="file and pickle to disk write error">
-      <created>1460734626840</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1460734626840</updated>
-    </task>
-    <task id="LOCAL-00012" summary="update with comments in all files">
-      <created>1461132149090</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1461132149090</updated>
-    </task>
-    <task id="LOCAL-00013" summary="update for udit">
-      <created>1461357378080</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1461357378080</updated>
-    </task>
-    <task id="LOCAL-00014" summary="code refining">
-      <created>1461400137927</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1461400137927</updated>
-    </task>
-    <task id="LOCAL-00015" summary="code refining">
-      <created>1461400152353</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1461400152353</updated>
-    </task>
-    <task id="LOCAL-00016" summary="weighting and other changes with minor math bug fixes">
-      <created>1461871093633</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1461871093633</updated>
-    </task>
-    <task id="LOCAL-00017" summary="weighting and other changes with minor math bug fixes">
-      <created>1461871101118</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1461871101118</updated>
-    </task>
-    <task id="LOCAL-00018" summary="trend anaylsis upload">
-      <created>1461975576629</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1461975576629</updated>
-    </task>
-    <task id="LOCAL-00019" summary="trend anaylsis upload">
-      <created>1463100760460</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1463100760460</updated>
-    </task>
-    <task id="LOCAL-00020" summary="trend anaylsis upload">
-      <created>1463100885939</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1463100885939</updated>
-    </task>
-    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="Doctests_in_tabulate - 2016.04.16 at 02h 18m 54s.xml">
-      <configuration name="Doctests in tabulate" configurationId="tests" />
-    </history-entry>
-  </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="false" />
-    <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20863836" sideWeight="0.48989898" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3422222" sideWeight="0.4233631" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32515338" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26993865" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-=======
-    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20774385" sideWeight="0.48989898" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2685185" sideWeight="0.50558454" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32407406" sideWeight="0.4944155" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2685185" sideWeight="0.4944155" order="8" side_tool="false" content_ui="tabs" />
->>>>>>> fb1712028c29e90a61344a5d0d303541cf2899ee
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22693452" sideWeight="0.510101" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3422222" sideWeight="0.5766369" order="2" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3425926" sideWeight="0.5766369" order="2" side_tool="false" content_ui="tabs" />
->>>>>>> fb1712028c29e90a61344a5d0d303541cf2899ee
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32465544" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40490797" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34355828" sideWeight="0.4233631" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32515338" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2685185" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34355828" sideWeight="0.5766369" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20848846" sideWeight="0.48989898" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32465544" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22693452" sideWeight="0.510101" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40490797" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update-&#10;&#10;I have changed the date to week number which i feel will be comfortable.&#10;&#10;Reasons: &#10;&#10;1.Our goal is more week so we interested in the week than the entire date&#10;2.Now it must be easy to figure out in which we get christmas or other by just knowing the date of event" />
-    <MESSAGE value="minor update" />
-    <MESSAGE value="Figured out that temperature feature is only correlated for a very few departments and that too in only particular stores.&#10;&#10;We can say that is not correlated completely or we can also add a rule that whenever that particular department of that stores needs a prediction we can include temperature to impprove accuracy of the prediction&#10;&#10;I will also check the correlation with other features and let you know on that." />
-    <MESSAGE value="prolog miniproject update" />
-    <MESSAGE value="need to include threading" />
-    <MESSAGE value="moved out all unwanted files as of now into the garbage folder.&#10;replaced the train with the csv file I showed to you, which is a mixture of historical features with train data.&#10;So accordingly i deleted some enum functions and other files from the oops_objects file.&#10;Please take a look at everything once" />
-    <MESSAGE value="Sam,&#10;&#10;Please download this into a different location as I have moved or deleted files from that you uploaded.&#10;&#10;I moved on with the coding from your idea and implemented without using oops here, the code seems to work fine when under basic testing conditions where I have checked for one instance in non holiday and one instance in holiday.&#10;&#10;What we need to figure out here more include primarly your idea of how to give the weights to the weeks based on how far they move away from the choosen week. I basically did this using just the average but code up in way so that we can still include this feature.&#10;&#10;About the code:&#10;&#10;I haved modified pickling functions. Now we have only 4 funtions for pickling(pickling primary,seconday, unpickling primary and secondary)&#10;&#10;sales mapper code is newly added which maps the sales according to our discussion yesterday.&#10;&#10;If any else is required we can finish it in the class&#10;&#10;&#10;&#10;" />
-    <MESSAGE value="Weighted mapping update with minor errors" />
-    <MESSAGE value="Fixed all errors and updated the coded to run for week window of range from 2 to 5" />
-    <MESSAGE value="file and pickle to disk write error" />
-    <MESSAGE value="update with comments in all files" />
-    <MESSAGE value="update for udit" />
-    <MESSAGE value="code refining" />
-    <MESSAGE value="weighting and other changes with minor math bug fixes" />
-    <MESSAGE value="trend anaylsis upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="trend anaylsis upload" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6685714" />
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/other python works/web crawling/beautifulsoup.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
-      <option name="time" value="174" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/trend.py" />
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/storeSelector.py" />
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/weighted_sales_mapper.py" />
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/storeSelector.py" />
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/weighted_sales_mapper.py" />
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/storeSelector.py" />
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/weighted_sales_mapper.py" />
-=======
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/storeSelector.py">
+    <entry file="file://$PROJECT_DIR$/../project_works/digit-recognition/using-python/imagerRec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#1#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/sales_mapper.py">
+    <entry file="file://$PROJECT_DIR$/other python works/image recognition/imagerec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="675">
+          <caret line="126" column="2" selection-start-line="126" selection-start-column="2" selection-end-line="126" selection-end-column="2" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <marker date="1461332480952" expanded="true" signature="766:768" placeholder="..." />
+            <element signature="e#48#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/weighted_sales_mapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/various_weights_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/trend_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/storeSelector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/sales_mapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <marker date="1461332480952" expanded="true" signature="766:768" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/weighted_sales_mapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/storeSelector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/sales_mapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <marker date="1461332480952" expanded="true" signature="766:768" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/weighted_sales_mapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
->>>>>>> fb1712028c29e90a61344a5d0d303541cf2899ee
-    <entry file="file://C:/Anaconda3/envs/untitled/Lib/site-packages/pandas/core/indexing.py" />
-    <entry file="file://C:/Anaconda3/envs/untitled/Lib/site-packages/pandas/io/pickle.py" />
-    <entry file="file://C:/Anaconda3/envs/untitled/Lib/threading.py" />
-    <entry file="file://C:/Anaconda3/envs/untitled/Lib/codecs.py" />
-    <entry file="file://C:/Anaconda3/envs/untitled/Lib/site-packages/numpy/core/_methods.py" />
-    <entry file="file://C:/Anaconda3/envs/untitled/Lib/site-packages/numpy/core/fromnumeric.py" />
-    <entry file="file://C:/Python34/Lib/site-packages/pandas/__init__.py" />
-    <entry file="file://C:/Python34/Lib/site-packages/scipy/__init__.py" />
-    <entry file="file://C:/Python34/Lib/site-packages/numpy/__init__.py" />
-    <entry file="file://C:/Python34/Lib/site-packages/numpy/lib/__init__.py" />
-    <entry file="file://C:/Python34/Lib/site-packages/numpy/lib/type_check.py" />
-    <entry file="file://C:/Python34/Lib/site-packages/numpy/core/__init__.py" />
-    <entry file="file://C:/Python34/Lib/site-packages/numpy/add_newdocs.py" />
-    <entry file="file://C:/Anaconda3/envs/untitled/Lib/site-packages/pandas/core/ops.py" />
-    <entry file="file://C:/Anaconda3/envs/untitled/Lib/site-packages/pandas/indexes/base.py" />
-    <entry file="file://C:/Anaconda3/envs/untitled/Lib/site-packages/pandas/core/generic.py" />
-    <entry file="file://C:/Anaconda3/envs/untitled/Lib/site-packages/pandas/core/series.py" />
-    <entry file="file://$USER_HOME$/.PyCharm50/idea.properties" />
-    <entry file="file://$USER_HOME$/.PyCharm50/pycharm.exe.vmoptions" />
-    <entry file="file://C:/Anaconda3/envs/untitled/Lib/site-packages/pandas/core/frame.py" />
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/various_weights_model.py" />
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/weighted_sales_mapper.py" />
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/storeSelector.py" />
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/trend.py" />
-=======
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/storeSelector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/sales_mapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <marker date="1461332480952" expanded="true" signature="766:768" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/weighted_sales_mapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/various_weights_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../projects/Data mining course project/trend_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
->>>>>>> fb1712028c29e90a61344a5d0d303541cf2899ee
   </component>
 </project>
