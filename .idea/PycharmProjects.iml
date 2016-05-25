@@ -5,7 +5,11 @@
       <sourceFolder url="file://$MODULE_DIR$/Data-Mining-Project--Walmart-Weekly-Forecast" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SA_Project" isTestSource="false" />
     </content>
+<<<<<<< HEAD
     <orderEntry type="jdk" jdkName="Unknown at C:\Python34\python.exe" jdkType="Python SDK" />
+=======
+    <orderEntry type="jdk" jdkName="Python 3.5.1 (~/anaconda3/bin/python)" jdkType="Python SDK" />
+>>>>>>> fb1712028c29e90a61344a5d0d303541cf2899ee
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="projects" />
   </component>
