@@ -113,8 +113,9 @@ whatNumIsThis('images/test.png')
 
 
 
-# i = Image.open('./images/numbers/0.1.png')
-# iar = np.asarray(i)
+i = Image.open('./images/numbers/0.1.png')
+iar = np.asarray(i)
+print(iar)
 #
 # i2 = Image.open('./images/numbers/y0.4.png')
 # iar2 = np.asarray(i2)
