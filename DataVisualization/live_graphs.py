@@ -6,7 +6,8 @@ from time import time
 style.use('fivethirtyeight')
 
 fig = plt.figure()
-ax1 = fig.add_subplot(1,1,1)
+ax1 = fig.add_subplot(1, 1, 1)
+
 
 def animate(i):
     graph_data = open('example.txt').read()
@@ -23,6 +24,8 @@ def animate(i):
     ax1.clear()
     ax1.plot(xs, ys)
 
-ani = animation.FuncAnimation(fig=fig, func=animate, interval=1000) #interval = 1000 milliseconds
+
+ani = animation.FuncAnimation(fig=fig, func=animate,
+                              interval=1000)  # interval = 1000 milliseconds
 
 plt.show()

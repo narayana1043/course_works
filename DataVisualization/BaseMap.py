@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 #             urcrnrlon=180,
 #             resolution='l')   #resolution -- c,l,h,f
 
-m = Basemap('mill',resolution='f')
+m = Basemap('mill', resolution='f')
 
 # print(mpl_toolkits.basemap.__version__)
 # print(mpl_toolkits.basemap._kw_args)
@@ -26,4 +26,3 @@ m.drawcountries(linewidth=2)
 
 plt.title('Basemap')
 plt.show()
-

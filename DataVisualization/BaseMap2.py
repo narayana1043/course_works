@@ -33,9 +33,9 @@ xs.append(xpt)
 ys.append(ypt)
 m.plot(xpt, ypt, 'g^', markersize=15)
 m.plot(xs, ys, color='r', linewidth=3, label='Flight 98')
-m.drawgreatcircle(NYClon, NYClat, LAlon, LAlat, color='c', linewidth=3, label='Arc')
+m.drawgreatcircle(NYClon, NYClat, LAlon, LAlat, color='c', linewidth=3,
+                  label='Arc')
 
 plt.legend(loc=4)
 plt.title('Basemap')
 plt.show()
-
