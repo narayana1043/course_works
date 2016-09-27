@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0077)http://www.mblondel.org/journal/2010/09/19/support-vector-machines-in-python/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US"><head profile="http://gmpg.org/xfn/11"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<title>Mathieu's log  » Blog Archive   » Support Vector Machines in Python</title>
+
+<link rel="stylesheet" href="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/style.css" type="text/css" media="screen">
+<link rel="alternate" type="application/rss+xml" title="Mathieu&#39;s log RSS Feed" href="http://www.mblondel.org/journal/feed/">
+<link rel="pingback" href="http://www.mblondel.org/journal/xmlrpc.php">
+
+<style type="text/css" media="screen">
+
+	#page { background: url("http://www.mblondel.org/journal/wp-content/themes/default/images/kubrickbgwide.jpg") repeat-y top; border: none; }
+
+</style>
+
+<link rel="alternate" type="application/rss+xml" title="Mathieu&#39;s log » Support Vector Machines in Python Comments Feed" href="http://www.mblondel.org/journal/2010/09/19/support-vector-machines-in-python/feed/">
+<script type="text/javascript" src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/si_captcha.js"></script><style type="text/css"></style>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.mblondel.org/journal/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.mblondel.org/journal/wp-includes/wlwmanifest.xml"> 
+<link rel="index" title="Mathieu&#39;s log" href="http://www.mblondel.org/journal/">
+<link rel="start" title="Building a mini Debian based router/firewall" href="http://www.mblondel.org/journal/2006/03/28/building-a-mini-debian-based-routerfirewall/">
+<link rel="prev" title="Latent Dirichlet Allocation in Python" href="http://www.mblondel.org/journal/2010/08/21/latent-dirichlet-allocation-in-python/">
+<link rel="next" title="Kernel Perceptron in Python" href="http://www.mblondel.org/journal/2010/10/31/kernel-perceptron-in-python/">
+<meta name="generator" content="WordPress 3.0.4">
+<link rel="canonical" href="http://www.mblondel.org/journal/2010/09/19/support-vector-machines-in-python/">
+<link rel="shortlink" href="http://www.mblondel.org/journal/?p=128">
+
+<link rel="stylesheet" href="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/wp-syntax.css" type="text/css" media="screen">
+<style type="text/css">
+/* <![CDATA[ */
+img.latex { vertical-align: middle; border: none; }
+/* ]]> */
+</style>
+</head>
+<body>
+<div id="page">
+
+
+<div id="header">
+	<div id="headerimg">
+		<h1><a href="http://www.mblondel.org/journal/">Mathieu's log</a></h1>
+		<div class="description">Machine Learning, Data Mining, Natural Language Processing…</div>
+	</div>
+</div>
+<hr>
+
+	<div id="content" class="widecolumn">
+
+	
+		<div class="navigation">
+			<div class="alignleft">« <a href="http://www.mblondel.org/journal/2010/08/21/latent-dirichlet-allocation-in-python/" rel="prev">Latent Dirichlet Allocation in Python</a></div>
+			<div class="alignright"><a href="http://www.mblondel.org/journal/2010/10/31/kernel-perceptron-in-python/" rel="next">Kernel Perceptron in Python</a> »</div>
+		</div>
+
+		<div class="post" id="post-128">
+			<h2>Support Vector Machines in Python</h2>
+
+			<div class="entry">
+				<p><a href="http://en.wikipedia.org/wiki/Support_vector_machine">Support Vector Machines</a> (SVM) are the state-of-the-art classifier in many applications and have become ubiquitous thanks to the wealth of open-source libraries implementing them. However, you learn a lot more by actually doing than by just reading, so let’s play a little bit with SVM in Python! To make it easier to read, we will use the same notation as in Christopher Bishop’s book “Pattern Recognition and Machine Learning”.<br>
+<span id="more-128"></span></p>
+<h3>Maximum margin</h3>
+<p>In SVM, the class of an input vector <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex.php" alt="\mathbf{x}" title="\mathbf{x}" class="latex"> can be decided by evaluating the sign of <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(1).php" alt="y(\mathbf{x})" title="y(\mathbf{x})" class="latex">.</p>
+<img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(2).php" alt="(7.1)~y(\mathbf{x}) = \mathbf{w}^T\phi(\mathbf{x})+b" title="(7.1)~y(\mathbf{x}) = \mathbf{w}^T\phi(\mathbf{x})+b" class="latex">
+<p>If <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(3).php" alt="y(\mathbf{x}) &gt; 0" title="y(\mathbf{x}) &gt; 0" class="latex"> we assign <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex.php" alt="\mathbf{x}" title="\mathbf{x}" class="latex">  to class +1 and if <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(4).php" alt="y(\mathbf{x}) &lt; 0" title="y(\mathbf{x}) &lt; 0" class="latex">, we assign it to class -1. Here <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(5).php" alt="\phi(\mathbf{x})" title="\phi(\mathbf{x})" class="latex"> is a feature-space transformation, which can map <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex.php" alt="\mathbf{x}" title="\mathbf{x}" class="latex"> to a space of higher, possibly infinite, dimensions.</p>
+<p>Given a data set comprising <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(6).php" alt="N" title="N" class="latex"> input vectors <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(7).php" alt="\mathbf{x}_1,\dots,\mathbf{x}_n" title="\mathbf{x}_1,\dots,\mathbf{x}_n" class="latex"> and their corresponding labels <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(8).php" alt="t_1,\dots,t_n" title="t_1,\dots,t_n" class="latex">, where <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(9).php" alt="t_n \in \{-1,+1\}" title="t_n \in \{-1,+1\}" class="latex">, we would like to find <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(10).php" alt="\mathbf{w}" title="\mathbf{w}" class="latex"> and <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(11).php" alt="b" title="b" class="latex"> such that it explains the training data: <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(12).php" alt="y(\mathbf{x}_n) \ge 1" title="y(\mathbf{x}_n) \ge 1" class="latex"> when <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(13).php" alt="t_n=+1" title="t_n=+1" class="latex"> and <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(14).php" alt="y(\mathbf{x}_n) \le 1" title="y(\mathbf{x}_n) \le 1" class="latex"> when <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(15).php" alt="t_n=-1" title="t_n=-1" class="latex">. This can be rewritten in a single constraint:</p>
+<img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(16).php" alt="(7.5)~t_n (\mathbf{w}^T\phi(\mathbf{x})+b) \ge 1,~n=1,\dots,N" title="(7.5)~t_n (\mathbf{w}^T\phi(\mathbf{x})+b) \ge 1,~n=1,\dots,N" class="latex">
+<p>In addition, <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(10).php" alt="\mathbf{w}" title="\mathbf{w}" class="latex"> and <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(11).php" alt="b" title="b" class="latex"> are chosen so that the distance between the decision boundary <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(17).php" alt="\mathbf{w}^T\phi(\mathbf{x})+b=0" title="\mathbf{w}^T\phi(\mathbf{x})+b=0" class="latex"> (a line in the 2-d case, a plane in the 3-d case, a hyperplane in the n-d case) and the closest points to it is maximized. This distance is called the margin, hence the name <em>maximum margin</em> classifier. Geometrically, the margin is found to be <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(18).php" alt="2/\|\mathbf{w}\|^2" title="2/\|\mathbf{w}\|^2" class="latex"> and so the maximum margin problem can be equivalently expressed as the minimization problem:</p>
+<img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(19).php" alt="(7.6)~arg min_{\mathbf{w},b}\frac{1}{2}\|\mathbf{w}\|^2" title="(7.6)~arg min_{\mathbf{w},b}\frac{1}{2}\|\mathbf{w}\|^2" class="latex">
+<p>subject to constraint (7.5).</p>
+<p><img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/svm_linear.png"></p>
+<p>Figure 1: The linearly separable case. The decision line is the plain line and the margin is the gap between the two dotted lines. Only 3 support vectors (green dots) out of 180 training examples are necessary.</p>
+<h3>Dual representation</h3>
+<p>Since this is a constrained optimization problem, we can introduce <a href="http://en.wikipedia.org/wiki/Lagrange_multipliers">Lagrange multipliers</a> <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(20).php" alt="a_n \ge 0" title="a_n \ge 0" class="latex"> (one per training example), differentiate the Lagrangian function with respect to <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(10).php" alt="\mathbf{w}" title="\mathbf{w}" class="latex"> and <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(11).php" alt="b" title="b" class="latex"> and inject the solution back in the Lagrangian function (equations (7.7) to (7.9) in Bishop’s book), so that it depends only on the Lagrange multipliers. Doing so, we find that the maximum margin equivalently emerges from the maximization of</p>
+<img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(21).php" alt="(7.10)~\tilde{L}(\mathbf{a}) = \sum_{n=1}^Na_n-\frac{1}{2}\sum_{n=1}^N\sum_{m=1}^N a_n a_m t_n t_m k(\mathbf{x}_n,\mathbf{x}_m)" title="(7.10)~\tilde{L}(\mathbf{a}) = \sum_{n=1}^Na_n-\frac{1}{2}\sum_{n=1}^N\sum_{m=1}^N a_n a_m t_n t_m k(\mathbf{x}_n,\mathbf{x}_m)" class="latex">
+<p>subject to the constraints</p>
+<img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(22).php" alt="(7.11)~a_n \ge 0,~n=1,\dots,N" title="(7.11)~a_n \ge 0,~n=1,\dots,N" class="latex"><br>
+<br><br>
+<img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(23).php" alt="(7.12)~\sum_{n=1}^Na_nt_n = 0" title="(7.12)~\sum_{n=1}^Na_nt_n = 0" class="latex">
+<p>This is the so-called <em>dual representation</em> and is a <a href="http://en.wikipedia.org/wiki/Quadratic_programming">quadratic programming</a> (QP) problem. <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(24).php" alt="k(\mathbf{x}_n,\mathbf{x}_m)= \phi(\mathbf{x}_n)^T\phi(\mathbf{x}_m)" title="k(\mathbf{x}_n,\mathbf{x}_m)= \phi(\mathbf{x}_n)^T\phi(\mathbf{x}_m)" class="latex"> is called the kernel function.</p>
+<p>Similarly to the objective function, <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(1).php" alt="y(\mathbf{x})" title="y(\mathbf{x})" class="latex"> can also be re-expressed solely in terms of the Lagrange multipliers.</p>
+<img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(25).php" alt="(7.13)~y(\mathbf{x})= \sum_{n=1}^N a_n t_n k(\mathbf{x},\mathbf{x}_n)" title="(7.13)~y(\mathbf{x})= \sum_{n=1}^N a_n t_n k(\mathbf{x},\mathbf{x}_n)" class="latex">
+<p>The important thing to notice here is that we’ve gone from a sum over <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(26).php" alt="M" title="M" class="latex"> dimensions (the <a href="http://en.wikipedia.org/wiki/Dot_product">dot product</a> in equation (7.1)) to a sum over <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(6).php" alt="N" title="N" class="latex"> points. This may seem like a disadvantage as the number of training examples <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(6).php" alt="N" title="N" class="latex"> is usually bigger than the number of dimensions <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(26).php" alt="M" title="M" class="latex">. However, this is very useful and is called the <a href="http://en.wikipedia.org/wiki/Kernel_trick">kernel trick</a>: this allows to use SVM, originally a linear classifier, to solve a non-linear problem by mapping the original non-linear observations into a higher-dimensional space, but without explicitly computing <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(5).php" alt="\phi(\mathbf{x})" title="\phi(\mathbf{x})" class="latex">.</p>
+<p>In many situations, only a small proportion of the Lagrange multipliers <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(27).php" alt="a_n" title="a_n" class="latex"> will be non-zero, therefore we only need to store the corresponding training examples <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(28).php" alt="\mathbf{x}_n" title="\mathbf{x}_n" class="latex">. These are called the <em>support vectors</em> and this is why SVMs are sometimes called sparse kernel machines.</p>
+<p>That being said, in the linear case, i.e. when <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(29).php" alt="\phi(\mathbf{x})=\mathbf{x}" title="\phi(\mathbf{x})=\mathbf{x}" class="latex">, it is faster to directly compute <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(1).php" alt="y(\mathbf{x})" title="y(\mathbf{x})" class="latex"> from equation (7.1). <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(10).php" alt="\mathbf{w}" title="\mathbf{w}" class="latex"> and <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(11).php" alt="b" title="b" class="latex"> can be computed in terms of the Lagrange multipliers by equations (7.8) and (7.18) in Bishop’s book.</p>
+<p><img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/svm_non_linear.png"></p>
+<p>Figure 2: The non-linearly separable case. Example of a gaussian kernel with parameter sigma=5.0. Perfect prediction is achieved on the held-out 20 data points.</p>
+<h3>QP solver</h3>
+<p>We want to find the Lagrange multipliers <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(27).php" alt="a_n" title="a_n" class="latex"> maximizing equation (7.10) subject to the constraints (7.11) and (7.11). This can be done by a standard QP solver such as <a href="http://abel.ee.ucla.edu/cvxopt/">cvxopt</a>.</p>
+<p>Minimize</p>
+<img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(30).php" alt="\frac{1}{2} \mathbf{x}^T P\mathbf{x} + \mathbf{q}^T \mathbf{x}" title="\frac{1}{2} \mathbf{x}^T P\mathbf{x} + \mathbf{q}^T \mathbf{x}" class="latex">
+<p>subject to</p>
+<img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(31).php" alt="G\mathbf{x} \leq \mathbf h" title="G\mathbf{x} \leq \mathbf h" class="latex"> (inequality constraint)<br>
+<br><br>
+<img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(32).php" alt="A\mathbf{x} = \mathbf b" title="A\mathbf{x} = \mathbf b" class="latex"> (equality constraint)<p></p>
+<p>The unknow is <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex.php" alt="\mathbf{x}" title="\mathbf{x}" class="latex">, which in our case correspond to the Lagrange multipliers <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(33).php" alt="\mathbf{a}=a_1,\dots,a_n" title="\mathbf{a}=a_1,\dots,a_n" class="latex">. We just need to rework the formulation a little bit to use matrix notation and be a minimization (hence the -1 multiplicative factors).</p>
+
+<div class="wp_syntax"><div class="code"><pre class="python" style="font-family:monospace;"><span style="color: #808080; font-style: italic;"># Gram matrix</span>
+K = np.<span style="color: black;">zeros</span><span style="color: black;">(</span><span style="color: black;">(</span>n_samples, n_samples<span style="color: black;">)</span><span style="color: black;">)</span>
+<span style="color: #ff7700;font-weight:bold;">for</span> i <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">(</span>n_samples<span style="color: black;">)</span>:
+    <span style="color: #ff7700;font-weight:bold;">for</span> j <span style="color: #ff7700;font-weight:bold;">in</span> <span style="color: #008000;">range</span><span style="color: black;">(</span>n_samples<span style="color: black;">)</span>:
+        K<span style="color: black;">[</span>i,j<span style="color: black;">]</span> = <span style="color: #008000;">self</span>.<span style="color: black;">kernel</span><span style="color: black;">(</span>X<span style="color: black;">[</span>i<span style="color: black;">]</span>, X<span style="color: black;">[</span>j<span style="color: black;">]</span><span style="color: black;">)</span>
+&nbsp;
+P = cvxopt.<span style="color: black;">matrix</span><span style="color: black;">(</span>np.<span style="color: black;">outer</span><span style="color: black;">(</span>y,y<span style="color: black;">)</span> <span style="color: #66cc66;">*</span> K<span style="color: black;">)</span>
+q = cvxopt.<span style="color: black;">matrix</span><span style="color: black;">(</span>np.<span style="color: black;">ones</span><span style="color: black;">(</span>n_samples<span style="color: black;">)</span> <span style="color: #66cc66;">*</span> -<span style="color: #ff4500;">1</span><span style="color: black;">)</span>
+A = cvxopt.<span style="color: black;">matrix</span><span style="color: black;">(</span>y, <span style="color: black;">(</span><span style="color: #ff4500;">1</span>,n_samples<span style="color: black;">)</span><span style="color: black;">)</span>
+b = cvxopt.<span style="color: black;">matrix</span><span style="color: black;">(</span><span style="color: #ff4500;">0.0</span><span style="color: black;">)</span>
+G = cvxopt.<span style="color: black;">matrix</span><span style="color: black;">(</span>np.<span style="color: black;">diag</span><span style="color: black;">(</span>np.<span style="color: black;">ones</span><span style="color: black;">(</span>n_samples<span style="color: black;">)</span> <span style="color: #66cc66;">*</span> -<span style="color: #ff4500;">1</span><span style="color: black;">)</span><span style="color: black;">)</span>
+h = cvxopt.<span style="color: black;">matrix</span><span style="color: black;">(</span>np.<span style="color: black;">zeros</span><span style="color: black;">(</span>n_samples<span style="color: black;">)</span><span style="color: black;">)</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;"># Solve QP problem</span>
+solution = cvxopt.<span style="color: black;">solvers</span>.<span style="color: black;">qp</span><span style="color: black;">(</span>P, q, G, h, A, b<span style="color: black;">)</span>
+&nbsp;
+<span style="color: #808080; font-style: italic;"># Lagrange multipliers</span>
+a = np.<span style="color: black;">ravel</span><span style="color: black;">(</span>solution<span style="color: black;">[</span><span style="color: #483d8b;">'x'</span><span style="color: black;">]</span><span style="color: black;">)</span></pre></div></div>
+
+<p>Note here that <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(34).php" alt="P" title="P" class="latex"> is a <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(35).php" alt="N \times N" title="N \times N" class="latex"> matrix. Thus, a standard QP solver can’t be used for a large number of training examples, as P needs to be stored in memory. There exists a number of algorithms in order to decompose the original QP problem into smaller QP problems that target only a few training samples at a time. One such algorithm is <a href="http://en.wikipedia.org/wiki/Sequential_Minimal_Optimization">Sequential Minimal Optimization</a> (SMO). One advantage of SMO is that the smaller QP problems can be solved analytically and so SMO doesn’t even need a QP solver.</p>
+<h3>Soft margin</h3>
+<p>The problem with the formulation we have used thus far is that it doesn’t allow for misclassification of the training examples. This can lead to poor generalization if there is overlap between the distributions of the two classes. To solve this problem, we can rework constraint (7.5) as</p>
+<p><img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(36).php" alt="(7.20)~t_n y(\mathbf{x}_n) \ge 1 - \xi_n,~n=1,\dots,N" title="(7.20)~t_n y(\mathbf{x}_n) \ge 1 - \xi_n,~n=1,\dots,N" class="latex"><br>
+<br><br>
+<img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(37).php" alt="\xi_n" title="\xi_n" class="latex"> are called slack variables and are introduced to allow the misclassification of some examples. If <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(38).php" alt="\xi_n=0" title="\xi_n=0" class="latex">, the corresponding training example is correctly classified. If <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(39).php" alt="0 &lt; \xi_n \le 1" title="0 &lt; \xi_n \le 1" class="latex">, the training example lies inside the margin but is still on the correct side of the decision boundary. If <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(40).php" alt="\xi_n &gt; 1" title="\xi_n &gt; 1" class="latex">, the training example is misclassified. Equation (7.6) then becomes</p>
+<p><img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(41).php" alt="(7.21)~C \sum_{n=1}^N \xi_n + \frac{1}{2}\|\mathbf{w}\|^2" title="(7.21)~C \sum_{n=1}^N \xi_n + \frac{1}{2}\|\mathbf{w}\|^2" class="latex"><br>
+<br></p>
+<p><img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(42).php" alt="C &gt; 0" title="C &gt; 0" class="latex"> is the parameter which controls the trade-off between the slack variable penality and the margin. Again, we can introduce Lagrange multipliers, derive the Lagrangian function with respect to <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(10).php" alt="\mathbf{w}" title="\mathbf{w}" class="latex">, <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(11).php" alt="b" title="b" class="latex"> and <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(37).php" alt="\xi_n" title="\xi_n" class="latex">, and inject the solutions back in the Lagragian function (equations (7.22) to (7.31) in Bishop’s book).</p>
+<p><img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(43).php" alt="(7.32)~\tilde{L}(\mathbf{a}) = \sum_{n=1}^Na_n-\frac{1}{2}\sum_{n=1}^N\sum_{m=1}^N a_n a_m t_n t_m k(\mathbf{x}_n,\mathbf{x}_m)" title="(7.32)~\tilde{L}(\mathbf{a}) = \sum_{n=1}^Na_n-\frac{1}{2}\sum_{n=1}^N\sum_{m=1}^N a_n a_m t_n t_m k(\mathbf{x}_n,\mathbf{x}_m)" class="latex">
+</p><p>Which is identical to the hard margin case! The constraints become:</p>
+<img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(44).php" alt="(7.33)~0 \le a_n \le C" title="(7.33)~0 \le a_n \le C" class="latex"><br>
+<br><br>
+<img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(45).php" alt="(7.34)~\sum_{n=1}^N a_n t_n = 0" title="(7.34)~\sum_{n=1}^N a_n t_n = 0" class="latex">
+<p>Interestingly, the slack variables <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(37).php" alt="\xi_n" title="\xi_n" class="latex"> have vanished and the only difference with the hard margin is that the inequality constraint now has an upper bound, <img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(46).php" alt="C" title="C" class="latex">.</p>
+<p>The attentive reader will have noticed that the inequality constraints in cvxopt have an upper bound but no lower bound.</p>
+<img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(31).php" alt="G\mathbf{x} \leq \mathbf h" title="G\mathbf{x} \leq \mathbf h" class="latex">
+<p>The trick is to rewrite constraint (7.33) as a system of inequations, in matrix notation. Example with 2 training examples:</p>
+<img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/latex(47).php" alt="\begin{pmatrix}-1 &amp; 0 \\ 0 &amp; -1 \\ 1 &amp; 0  \\ 0 &amp; 1\end{pmatrix}\begin{pmatrix}a_1\\ a_2\end{pmatrix} \le \begin{pmatrix}0 \\ 0 \\ C \\ C\end{pmatrix}" title="\begin{pmatrix}-1 &amp; 0 \\ 0 &amp; -1 \\ 1 &amp; 0  \\ 0 &amp; 1\end{pmatrix}\begin{pmatrix}a_1\\ a_2\end{pmatrix} \le \begin{pmatrix}0 \\ 0 \\ C \\ C\end{pmatrix}" class="latex">
+<p><img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/svm_hard.png"></p>
+<p>Figure 3: The hard margin case. 180 vectors out of 180 are support vectors! And the classifier only achieves 11 correct predictions out of 20, on held-out data.</p>
+<p><img src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/svm_soft.png"></p>
+<p>Figure 4: The soft margin case (C=0.1). 36 vectors out of 180 are support vectors. The classifier achieves 19 correct predictions out of 20!</p>
+<h3>Source</h3>
+<p><a href="http://gist.github.com/586753">http://gist.github.com/586753</a></p>
+<h3>References</h3>
+<p>Pattern Recognition and Machine Learning, Christopher Bishop, 2006.</p>
+<p><a href="http://d.hatena.ne.jp/aidiary/20100503/1272889097">ソフトマージンSVM</a>, 人工知能に関する断想録</p>
+
+								
+				<p class="postmetadata alt">
+					<small>
+						This entry was posted
+												on Sunday, September 19th, 2010 at 3:07 pm						and is filed under <a href="http://www.mblondel.org/journal/category/machine-learning/" title="View all posts in Machine Learning" rel="category tag">Machine Learning</a>, <a href="http://www.mblondel.org/journal/category/python/" title="View all posts in Python" rel="category tag">Python</a>.
+						You can follow any responses to this entry through the <a href="http://www.mblondel.org/journal/2010/09/19/support-vector-machines-in-python/feed/">RSS 2.0</a> feed.
+
+													Both comments and pings are currently closed.
+
+						
+					</small>
+				</p>
+
+			</div>
+		</div>
+
+	
+<!-- You can start editing here. -->
+
+	<h3 id="comments">2 Responses to “Support Vector Machines in Python”</h3>
+
+	<ol class="commentlist">
+
+	
+		<li class="alt" id="comment-215142">
+			<img alt="" src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/f8d23fccb4b2e8ed576d1e993d098305" class="avatar avatar-32 photo" height="32" width="32">			<cite><a href="http://mattions.wordpress.com/" rel="external nofollow" class="url">Michele Mattioni</a></cite> Says:
+						<br>
+
+			<small class="commentmetadata"><a href="http://www.mblondel.org/journal/2010/09/19/support-vector-machines-in-python/#comment-215142" title="">November 5th, 2010 at 11:32 am</a> </small>
+
+			<p>I see the latex markup but not the results on the text of the post.<br>
+Does it happen to you?</p>
+
+		</li>
+
+	
+	
+		<li id="comment-215150">
+			<img alt="" src="./Mathieu&#39;s log » Blog Archive » Support Vector Machines in Python_files/af78619231b186055bdd40c5057af17d" class="avatar avatar-32 photo" height="32" width="32">			<cite><a href="http://www.mblondel.org/" rel="external nofollow" class="url">Mathieu</a></cite> Says:
+						<br>
+
+			<small class="commentmetadata"><a href="http://www.mblondel.org/journal/2010/09/19/support-vector-machines-in-python/#comment-215150" title="">November 5th, 2010 at 12:07 pm</a> </small>
+
+			<p>The latex rendering is provided by wordpress.com so if you can’t see the equations, it means that this website is unavailable.</p>
+
+		</li>
+
+	
+	
+	</ol>
+
+ 
+
+
+	
+	</div>
+
+
+<hr>
+<div id="footer">
+<!-- If you'd like to support WordPress, having the "powered by" link somewhere on your blog is the best way; it's our only promotion or advertising. -->
+	<p>
+		Mathieu's log is proudly powered by
+		<a href="http://wordpress.org/">WordPress</a>
+		<br><a href="http://www.mblondel.org/journal/feed/">Entries (RSS)</a>
+		and <a href="http://www.mblondel.org/journal/comments/feed/">Comments (RSS)</a>.
+		<!-- 15 queries. 0.094 seconds. -->
+	</p>
+</div>
+</div>
+
+<!-- Gorgeous design by Michael Heilemann - http://binarybonsai.com/kubrick/ -->
+
+		
+
+</body></html>

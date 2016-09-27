@@ -5,34 +5,9 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_works/triangle-project/doc/api.rst" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_works/triangle-project/doc/guide.rst" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_works/triangle-project/doc/tutorial.rst" />
+    </list>
+    <list id="6f259366-bf2e-42f5-8c0c-63bfc7d091d6" name="Failed commit: Default" comment="Algo's update">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Artificial-Intelligence/Algo_Design/Uninfromed_Search.py" afterPath="$PROJECT_DIR$/Artificial-Intelligence/Algo_Design/Uninfromed_Search.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Artificial-Intelligence/Algo_Design/data_input.py" afterPath="$PROJECT_DIR$/Artificial-Intelligence/Algo_Design/data_input.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Artificial-Intelligence/Prolog_MiniProject/prolog1.py" afterPath="$PROJECT_DIR$/Artificial-Intelligence/Prolog_MiniProject/prolog1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data-Mining/HW1/q4/curse_of_dimensionality.py" afterPath="$PROJECT_DIR$/Data-Mining/HW1/q4/curse_of_dimensionality.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data-Mining/HW1/q5/dm_pa1_q5_test_avg_algo.py" afterPath="$PROJECT_DIR$/Data-Mining/HW1/q5/dm_pa1_q5_test_avg_algo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data-Mining/HW1/q5/dm_pa1_q5_test_eculid.py" afterPath="$PROJECT_DIR$/Data-Mining/HW1/q5/dm_pa1_q5_test_eculid.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data-Mining/HW1/q5/dm_pa1_q5avg_rate.py" afterPath="$PROJECT_DIR$/Data-Mining/HW1/q5/dm_pa1_q5avg_rate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data-Mining/HW1/q5/dm_pa1_q5temp.py" afterPath="$PROJECT_DIR$/Data-Mining/HW1/q5/dm_pa1_q5temp.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data-Mining/HW2/q1/q1_a.py" afterPath="$PROJECT_DIR$/Data-Mining/HW2/q1/q1_a.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data-Mining/HW2/q1/q1_answer.py" afterPath="$PROJECT_DIR$/Data-Mining/HW2/q1/q1_answer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data-Mining/HW2/q2/q2_need to change graphs.py" afterPath="$PROJECT_DIR$/Data-Mining/HW2/q2/q2_need to change graphs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data-Mining/HW2/q2/q2a&amp;b.py" afterPath="$PROJECT_DIR$/Data-Mining/HW2/q2/q2a&amp;b.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data-Mining/HW2/q2/q2c_0_1_normalization.py" afterPath="$PROJECT_DIR$/Data-Mining/HW2/q2/q2c_0_1_normalization.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data-Mining/HW2/q2/q2c_Zscore_normalization.py" afterPath="$PROJECT_DIR$/Data-Mining/HW2/q2/q2c_Zscore_normalization.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data-Mining/HW2/q4/q4.py" afterPath="$PROJECT_DIR$/Data-Mining/HW2/q4/q4.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data-Mining/HW2/q5/q5_a.py" afterPath="$PROJECT_DIR$/Data-Mining/HW2/q5/q5_a.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data-Mining/HW2/q5/q5_b_using25%validation_set.py" afterPath="$PROJECT_DIR$/Data-Mining/HW2/q5/q5_b_using25%validation_set.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data-Mining/HW2/q5/q5_c_MDL.py" afterPath="$PROJECT_DIR$/Data-Mining/HW2/q5/q5_c_MDL.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data-Mining/HW2/q5/q5_roc_plot_spectDataSet(Binary).py" afterPath="$PROJECT_DIR$/Data-Mining/HW2/q5/q5_roc_plot_spectDataSet(Binary).py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data-Mining/HW2/q6/q6.py" afterPath="$PROJECT_DIR$/Data-Mining/HW2/q6/q6.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data-Mining/HW4/assocRulesHW4a&amp;b.py" afterPath="$PROJECT_DIR$/Data-Mining/HW4/assocRulesHW4a&amp;b.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data-Mining/HW4/assocRulesHW4c.py" afterPath="$PROJECT_DIR$/Data-Mining/HW4/assocRulesHW4c.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sentimental-Analysis/HW1/HW1.py" afterPath="$PROJECT_DIR$/Sentimental-Analysis/HW1/HW1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sentimental-Analysis/HW2_yelp_data/yelp_classification_approach1.py" afterPath="$PROJECT_DIR$/Sentimental-Analysis/HW2_yelp_data/yelp_classification_approach1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sentimental-Analysis/HW2_yelp_data/yelp_classification_approach2.py" afterPath="$PROJECT_DIR$/Sentimental-Analysis/HW2_yelp_data/yelp_classification_approach2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sentimental-Analysis/HW2_yelp_data/yelp_classification_approach3.py" afterPath="$PROJECT_DIR$/Sentimental-Analysis/HW2_yelp_data/yelp_classification_approach3.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sentimental-Analysis/HW2_yelp_data/yelp_classification_approach4.py" afterPath="$PROJECT_DIR$/Sentimental-Analysis/HW2_yelp_data/yelp_classification_approach4.py" />
     </list>
     <ignored path="course_works.iws" />
     <ignored path=".idea/workspace.xml" />

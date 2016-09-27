@@ -14,204 +14,263 @@ import sys
 import os
 import time
 
-#reading pickled data from disk
-def read_data_pickle(dataPath,name):
-    with open(dataPath+name+"_pickle", "rb") as foo:
-        unpickledData = pickle.load(foo)
-    return unpickledData
 
-#pickling data to disk
-def write_data_pickle(dataPath,DataToPickle,name):
-    with open(dataPath+name+"_pickle", "wb") as foo:
-        pickle.dump(DataToPickle,foo)
+def read_data_pickle(data_path, name):
+    # reading pickled data from disk
+    with open(data_path + name + "_pickle", "rb") as foo:
+        unpickled_data = pickle.load(foo)
+    return unpickled_data
 
-#transaction list(pandas dataframe) generation as Zeros and Ones as mentioned in the question
-def transaction_list_gen(dataPath,fileName):
-    with open(dataPath+fileName+"PrepocessedData.txt") as transactions:
-    #with open(dataPath+fileName) as transactions:
-        transactionsDetails = []
-        itemsList = []
+
+def write_data_pickle(data_path, data_to_pickle, name):
+    # pickling data to disk
+    with open(data_path + name + "_pickle", "wb") as foo:
+        pickle.dump(data_to_pickle, foo)
+
+
+def transaction_list_gen(data_path, file_name):
+    # transaction list(pandas dataframe) generation as Zeros and
+    #  Ones as mentioned in the question
+    with open(data_path + file_name + "PrepocessedData.txt") as transactions:
+        # with open(data_path+file_name) as transactions:
+        transactions_details = []
+        items_list = []
         for row in transactions.read().splitlines():
             transaction = row.split(',')
-            itemsList += transaction
-            transactionsDetails.append(sorted(transaction))
-        itemsSet = sorted(set(itemsList))
-        itemSetLen = len(itemsSet)
-        df = pd.DataFrame(columns=itemsSet)
-        for i,transaction in zip(range(len(transactionsDetails)),transactionsDetails):
-            transactionNumpyArray = np.zeros(itemSetLen)
+            items_list += transaction
+            transactions_details.append(sorted(transaction))
+        items_set = sorted(set(items_list))
+        item_set_len = len(items_set)
+        df = pd.DataFrame(columns=items_set)
+        for i, transaction in zip(range(len(transactions_details)),
+                                  transactions_details):
+            transaction_numpy_array = np.zeros(item_set_len)
             for item in transaction:
-                transactionNumpyArray[itemsSet.index(item)] = 1
-            df.loc[i] = transactionNumpyArray
+                transaction_numpy_array[items_set.index(item)] = 1
+            df.loc[i] = transaction_numpy_array
     return df
+
 
 # #function to pickle the data into the disk
 # write_data_pickle(transaction_list_gen("groceries.csv"),"matrixCreation")
 # #function to read pickled data from disk
-# transactionDetails = read_data_pickle("matrixCreation")
-# print(transactionDetails.head())
+# transaction_details = read_data_pickle("matrixCreation")
+# print(transaction_details.head())
+
+def freq_item_set_gen(item_sets_freq, min_sup, transaction_details):
+    # Function to create frequent Item sets
+    freq_dict = []
+    for item_listFreq in item_sets_freq:
+        frequency = transaction_details.reindex(columns=item_listFreq[0]).prod(
+            axis=1).sum()
+        if frequency >= int(min_sup):
+            freq_dict.append([item_listFreq[0], frequency])
+    # orderedfreq_dict = sorted(freq_dict, key=operator.itemgetter(1),
+    #                           reverse=True)
+    # return orderedfreq_dict
+    return freq_dict
 
 
-#Function to create frequent Item sets
-def freq_item_set_gen(itemSetsFreq,minSup,transactionDetails):
-    freqDict = []
-    for itemListFreq in itemSetsFreq:
-        frequency = transactionDetails.reindex(columns=itemListFreq[0]).prod(axis=1).sum()
-        if frequency >= int(minSup):
-            freqDict.append([itemListFreq[0],frequency])
-    #orderedFreqDict =  sorted(freqDict, key=operator.itemgetter(1),reverse=True)
-    #return orderedFreqDict
-    return freqDict
+def multi_item_list_gen(items_list_freq):
+    # Function to create multi item sets(This function implements
+    #  f(k-1) * f(k-1) to generate f(k) multi item list)
+    freqitems_list = [items_list[0] for items_list in items_list_freq]
+    extendeditems_list = []
+    if freqitems_list != []:
+        if len(freqitems_list[0]) >= 2:
+            for items in freqitems_list:
+                for i in range(freqitems_list.index(items) + 1,
+                               len(freqitems_list)):
+                    if items[:-1] == freqitems_list[i][:-1]:
+                        # comparing various f(k-1)*f(k-1) to generate fk term
+                        extendeditems_list.append(
+                            [sorted(items + [freqitems_list[i][-1]]), 0])
+        elif len(freqitems_list[0]) == 1:
+            extendeditems_list = multi_item_list_gen1(items_list_freq,
+                                                      items_list_freq)
+    return extendeditems_list
 
-# Function to create multi item sets(This function implements f(k-1) * f(k-1) to generate f(k) multi item list)
-def multi_item_list_gen(itemsListFreq):
-    freqItemsList = [itemsList[0] for itemsList in itemsListFreq]
-    extendedItemsList = []
-    if freqItemsList != []:
-        if len(freqItemsList[0]) >=2:
-            for items in freqItemsList:
-                for i in range(freqItemsList.index(items)+1,len(freqItemsList)):
-                    if items[:-1] == freqItemsList[i][:-1]:                                 #comparing various f(k-1)*f(k-1) to generate fk term
-                        extendedItemsList.append([sorted(items+[freqItemsList[i][-1]]),0])
-        elif len(freqItemsList[0]) == 1:
-            extendedItemsList = multi_item_list_gen1(itemsListFreq,itemsListFreq)
-    return extendedItemsList
 
-# Function to create multi item sets(This function implements f(k-1) * f(k1) to generate f(k) multi item list)
-def multi_item_list_gen1(itemsListFreq,freqOneItemList):
-    freqItemList = sorted([itemsListFreq[0] for itemsListFreq in itemsListFreq])
-    extendedItemsList = []
-    for itemList in freqItemList:                            #loops only if there is an F(k-1) list exists
-        for item in sorted(freqOneItemList):
-            itemsCombination = sorted(itemList+item[0])
-            # print(itemList)
+def multi_item_list_gen1(items_list_freq, freq_one_item_list):
+    # Function to create multi item sets(This function implements
+    #  f(k-1) * f(k1) to generate f(k) multi item list)
+    freq_item_list = sorted(
+        [items_list_freq[0] for items_list_freq in items_list_freq])
+    extendeditems_list = []
+    for item_list in freq_item_list:
+        # loops only if there is an F(k-1) list exists
+        for item in sorted(freq_one_item_list):
+            items_combination = sorted(item_list + item[0])
+            # print(item_list)
             # print(item[0][0])
-            # print(item[0][0] not in itemList)
-            if itemList[-1] < item[0][0] and [itemsCombination,0] not in extendedItemsList:                    #using lexicographical order to prune reoccuring itemsets
-                # print(sorted(itemList+item[0]))
-                extendedItemsList.append([itemsCombination,0])
-    return extendedItemsList
-
-#Output generation-- Prints a the number of itemsets along with a small sample
-def printer(candidateItemList,freqItemList,itemListLen):
-    # if os.path.isfile(dataPath+"assRules1Output.txt") == True:
-    #     os.remove(dataPath+"assRules1Output.txt")
-    # sys.stdout = open(dataPath+"assRules1Output.txt","w")
-    print("*********Number of items when the list length is ",itemListLen+1,"*********")
-    #print("Candidate item lists: ",candidateItemList[0:2],"........",candidateItemList[-2:])
-    print("Count of Candidate item lists: ",len(candidateItemList))
-    #print("Frequent item lists: ",freqItemList[0:2],"........",freqItemList[-2:])
-    print("Count of Frequent item lists: ",len(freqItemList))
-
-#Output generation-- Prints a only the number of itemsets
-def printer1(candidateItemList,freqItemList,itemListLen):
-    print("*********Number of items when the list length is ",itemListLen+1,"*********")
-    #print("Candidate item lists: ",candidateItemList)#[0:2],"........",candidateItemList[-2:])
-    print("Count of Candidate item lists: ",len(candidateItemList))
-    #print("Frequent item lists: ",freqItemList)#,"........",freqItemList[-2:])
-    print("Count of Frequent item lists: ",len(freqItemList))
+            # print(item[0][0] not in item_list)
+            if item_list[-1] < item[0][0] and [items_combination,
+                                               0] not in extendeditems_list:
+                # using lexicographical order to prune reoccuring itemsets
+                # print(sorted(item_list+item[0]))
+                extendeditems_list.append([items_combination, 0])
+    return extendeditems_list
 
 
-# Function to make a list of columns that are passed to the freq_item_set_gen function to get the freq of each item
-def item_freq_counter(transactionDetails,method,minSup):
-    candidateItemList = []
-    freqItemList = []
-    itemListLen = 0
-    itemList = [[[transactionDetails.columns.values[i]],0] for i in range(len(transactionDetails.columns.values))]
-    candidateItemList.append(itemList)
-    freqItemList.append(itemList)
-    candidateItemList[itemListLen] = freq_item_set_gen(candidateItemList[itemListLen],0,transactionDetails)                           #minSup = 0(frequent item generation)
-    freqItemList[itemListLen] = freq_item_set_gen(freqItemList[itemListLen],minSup,transactionDetails)    #minSup = user input value
-    #printer1(candidateItemList[itemListLen],freqItemList[itemListLen],0)
-    #for itemListLen in range(1,itemSetLen):
+def printer(candidate_item_list, freq_item_list, item_list_len):
+    # Output generation-- 
+    # Prints a the number of itemsets along with a small sample
+    # if os.path.isfile(data_path+"assRules1Output.txt") == True:
+    #     os.remove(data_path+"assRules1Output.txt")
+    # sys.stdout = open(data_path+"assRules1Output.txt","w")
+    print("*********Number of items when the list length is ",
+          item_list_len + 1,
+          "*********")
+    # print("Candidate item lists: ", candidate_item_list[0:2], "........",
+    #       candidate_item_list[-2:])
+    print("Count of Candidate item lists: ", len(candidate_item_list))
+    # print("Frequent item lists: ", freq_item_list[0:2], "........",
+    #       freq_item_list[-2:])
+    print("Count of Frequent item lists: ", len(freq_item_list))
+
+
+def printer1(candidate_item_list, freq_item_list, item_list_len):
+    # Output generation-- Prints a only the number of itemsets
+    print("*********Number of items when the list length is ",
+          item_list_len + 1,
+          "*********")
+    # print("Candidate item lists: ",
+    #       candidate_item_list)  # [0:2],"........",candidate_item_list[-2:])
+    print("Count of Candidate item lists: ", len(candidate_item_list))
+    print("Frequent item lists: ", freq_item_list)
+    # ,"........",freq_item_list[-2:])
+    print("Count of Frequent item lists: ", len(freq_item_list))
+
+
+def item_freq_counter(transaction_details, method, min_sup):
+    # Function to make a list of columns that are passed to the
+    #  freq_item_set_gen function to get the freq of each item
+    candidate_item_list = []
+    freq_item_list = []
+    item_list_len = 0
+    item_list = [[[transaction_details.columns.values[i]], 0] for i in
+                 range(len(transaction_details.columns.values))]
+    candidate_item_list.append(item_list)
+    freq_item_list.append(item_list)
+    candidate_item_list[item_list_len] = freq_item_set_gen(
+        candidate_item_list[item_list_len], 0,
+        transaction_details)  # min_sup = 0(frequent item generation)
+    freq_item_list[item_list_len] = freq_item_set_gen(
+        freq_item_list[item_list_len],
+        min_sup, transaction_details)
+    # min_sup = user input value
+    # printer1(candidate_item_list[item_list_len],freq_item_list[item_list_len],0)
+    # for item_list_len in range(1,item_set_len):
     while True:
-        itemListLen += 1
+        item_list_len += 1
         if method == 1:
-            itemList = multi_item_list_gen1(freqItemList[itemListLen-1],candidateItemList[0])
+            item_list = multi_item_list_gen1(freq_item_list[item_list_len - 1],
+                                             candidate_item_list[0])
         elif method == 2:
-            itemList = multi_item_list_gen(freqItemList[itemListLen-1])
-        candidateItemList.append(itemList)
-        freqItemList.append(itemList)
-        candidateItemList[itemListLen] = freq_item_set_gen(candidateItemList[itemListLen],0,transactionDetails)                              #minSup = 0(frequent item generation)
-        freqItemList[itemListLen] = freq_item_set_gen(freqItemList[itemListLen],minSup,transactionDetails)       #minSup = user input value
-        #printer1(candidateItemList[itemListLen],freqItemList[itemListLen],itemListLen)
-        if len(candidateItemList[itemListLen]) == 0:
+            item_list = multi_item_list_gen(freq_item_list[item_list_len - 1])
+        candidate_item_list.append(item_list)
+        freq_item_list.append(item_list)
+        candidate_item_list[item_list_len] = freq_item_set_gen(
+            candidate_item_list[item_list_len], 0,
+            transaction_details)  # min_sup = 0(frequent item generation)
+        freq_item_list[item_list_len] = freq_item_set_gen(
+            freq_item_list[item_list_len], min_sup, transaction_details)
+        # min_sup = user input value
+        # printer1(candidate_item_list[item_list_len],freq_item_list[item_list_len],item_list_len)
+        if len(candidate_item_list[item_list_len]) == 0:
             break
-    return candidateItemList,freqItemList
+    return candidate_item_list, freq_item_list
 
-#function to generate the preprocessed file
-def preprocessor(dataPath,fileName):
-    df = pd.DataFrame.from_csv(dataPath+fileName,index_col=False)
+
+def preprocessor(data_path, file_name):
+    # function to generate the preprocessed file
+    df = pd.DataFrame.from_csv(data_path + file_name, index_col=False)
     for column in df.columns.values:
         df[column] = column + df[column]
-    #print(df)
-    df.to_csv(dataPath+fileName+"PrepocessedData.txt",index=False,header=False)
+    # print(df)
+    df.to_csv(data_path + file_name + "PrepocessedData.txt", index=False,
+              header=False)
 
-#creating a list of lists for  the maximal frequent itemsets at each level.
-def maxAndClosedFreqItemSetCount(freqItemList):
-    freqItemListLen = len(freqItemList)
-    maxFreqItemSets = [[] for _ in range(freqItemListLen)]
-    closedFreqItemSets = [[] for _ in range(freqItemListLen)]
-    for level in range(freqItemListLen):
-        if level < (freqItemListLen-1):
-            checkList = list(itemSet[0][:-1] for itemSet in freqItemList[level+1])
-            #print(checkList)
-            for item in freqItemList[level]:
-                if item[0] not in checkList:
-                    maxFreqItemSets[level].append(item)
+
+def max_and_closed_freq_item_set_count(freq_item_list):
+    # creating a list of lists for  the maximal frequent itemsets at each
+    # level.
+    freq_item_list_len = len(freq_item_list)
+    max_freq_item_sets = [[] for _ in range(freq_item_list_len)]
+    closed_freq_item_sets = [[] for _ in range(freq_item_list_len)]
+    for level in range(freq_item_list_len):
+        if level < (freq_item_list_len - 1):
+            check_list = list(
+                itemSet[0][:-1] for itemSet in freq_item_list[level + 1])
+            # print(check_list)
+            for item in freq_item_list[level]:
+                if item[0] not in check_list:
+                    max_freq_item_sets[level].append(item)
                 else:
-                    matchingIndexes = [freqItemList[level+1].index(itemSet) for itemSet in freqItemList[level+1] if itemSet[0][:-1]==item[0]]
-                    #print(matchesFound)
-                    #print(freqItemList[level+1][0])
-                    matchesFound = [freqItemList[level+1][index] for index in matchingIndexes]
-                    #print(len(matchesFound))
-                    #print(item)
+                    matching_indexes = [
+                        freq_item_list[level + 1].index(itemSet)
+                        for itemSet in freq_item_list[level + 1]
+                        if itemSet[0][:-1] == item[0]]
+                    # print(matches_found)
+                    # print(freq_item_list[level+1][0])
+                    matches_found = [freq_item_list[level + 1][index] for index
+                                     in
+                                     matching_indexes]
+                    # print(len(matches_found))
+                    # print(item)
                     temp = 0
-                    for match in matchesFound:
-                        if match[0][:-1]==item[0] and match[1]!=item[1]:
+                    for match in matches_found:
+                        if match[0][:-1] == item[0] and match[1] != item[1]:
                             temp += 1
-                    if temp == len(matchesFound):
-                        closedFreqItemSets[level].append(item)
-    return maxFreqItemSets,closedFreqItemSets
+                    if temp == len(matches_found):
+                        closed_freq_item_sets[level].append(item)
+    return max_freq_item_sets, closed_freq_item_sets
 
-#function to display the count maximal frequent itemsets at each level.
-def maxAndClosedFreqItemSetprinter(maxFreqItemSets,closedFreqItemSets):
+
+def max_and_closed_freq_item_set_printer(max_freq_item_sets,
+                                         closed_freq_item_sets):
+    # function to display the count maximal frequent itemsets at each level.
     print("The count of maximal frequent itemsets at each level")
-    for level in range(len(maxFreqItemSets)):
-        print(len(maxFreqItemSets[level]))
+    for level in range(len(max_freq_item_sets)):
+        print(len(max_freq_item_sets[level]))
     print("The count of closed frequent itemsets at each level")
-    for level in range(len(closedFreqItemSets)):
-        print(len(closedFreqItemSets[level]))
+    for level in range(len(closed_freq_item_sets)):
+        print(len(closed_freq_item_sets[level]))
+
 
 def start():
-    dataSetSelection = int(input("Enter\n"
-                                    "  1 for nursery data set(12960 instances)\n"
-                                    "  2 for car data set(1729 instances)\n"
-                                    "  3 for mushroom data set(8124 instances)\n"))
-    if dataSetSelection == 1:
-        fileName = "nursery.data.txt"
-        dataPath = "nursery data set/"
-    elif dataSetSelection == 2:
-        fileName = "car.data.txt"
-        dataPath = "car data set/"
-    elif dataSetSelection == 3:
-        fileName = "agaricus-lepiota.data.txt"
-        dataPath = "mushroom data set/"
-    elif dataSetSelection == 4:
-        fileName = "sample.txt"
-        dataPath = "sample data set"
+    data_set_selection = int(input("Enter\n"
+                                   "  1 for nursery data set(12960 instances)"
+                                   "\n"
+                                   "  2 for car data set(1729 instances)\n"
+                                   "  3 for mushroom data set(8124 instances)"
+                                   "\n"))
+    if data_set_selection == 1:
+        file_name = "nursery.data.txt"
+        data_path = "nursery data set/"
+    elif data_set_selection == 2:
+        file_name = "car.data.txt"
+        data_path = "car data set/"
+    elif data_set_selection == 3:
+        file_name = "agaricus-lepiota.data.txt"
+        data_path = "mushroom data set/"
+    elif data_set_selection == 4:
+        file_name = "sample.txt"
+        data_path = "sample data set"
     print("Loading Please wait.........")
-    preprocessor(dataPath,fileName)
-    transactionDetails = transaction_list_gen(dataPath,fileName)
-    write_data_pickle(dataPath,transactionDetails,"matrixCreation")
-    transactionDetails = read_data_pickle(dataPath,"matrixCreation")
+    preprocessor(data_path, file_name)
+    transaction_details = transaction_list_gen(data_path, file_name)
+    write_data_pickle(data_path, transaction_details, "matrixCreation")
+    transaction_details = read_data_pickle(data_path, "matrixCreation")
     method = int(input("Enter 1 for F(k-1)*f(k) and 2 for F(k-1)*f(k-1):\n"))
-    minSup = int(input("Enter the minimum support threshold:\n"))
-    candidateItemList,freqItemList = item_freq_counter(transactionDetails,method,minSup)
-    maxFreqItemSets,closedFreqItemSets =maxAndClosedFreqItemSetCount(freqItemList)
-    maxAndClosedFreqItemSetprinter(maxFreqItemSets,closedFreqItemSets)
-
-
+    min_sup = int(input("Enter the minimum support threshold:\n"))
+    candidate_item_list, freq_item_list = item_freq_counter(
+        transaction_details,
+        method, min_sup)
+    max_freq_item_sets, closed_freq_item_sets = \
+        max_and_closed_freq_item_set_count(freq_item_list)
+    max_and_closed_freq_item_set_printer(max_freq_item_sets,
+                                         closed_freq_item_sets)
 
 
 start()
