@@ -40,3 +40,4 @@ for number in z:
 
     if y[0]%2==0 and y[1]%2==0 and y[2]%2==0 and y[3]%2==0:
         print (number)
+

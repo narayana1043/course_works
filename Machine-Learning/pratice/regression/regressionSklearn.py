@@ -1,8 +1,7 @@
 import math
-import pandas as pd
 import quandl, datetime
 import numpy as np
-from sklearn import preprocessing, cross_validation, svm
+from sklearn import preprocessing, cross_validation
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 from matplotlib import style
@@ -21,14 +20,14 @@ forecast_col = 'Adj. Close'
 df.fillna(-9999, inplace=True)
 
 forecast_out = int(math.ceil(0.1 * len(df)))
-print(forecast_out)
 
 df['label'] = df[forecast_col].shift(-forecast_out)
 
-X = np.array(df.drop(['label', 'Adj. Close'], 1))
+X = np.array(df.drop(['label', ], 1))
 X = preprocessing.scale(X)
-X_lately = X[-forecast_out:]
 X = X[:-forecast_out]
+X_lately = X[-forecast_out:]
+
 
 df.dropna(inplace=True)
 y = np.array(df['label'])
@@ -36,17 +35,18 @@ y = np.array(df['label'])
 X_train, X_test, y_train, y_test = \
     cross_validation.train_test_split(X, y, test_size=0.2)
 
-# clf =  LinearRegression(n_jobs=-1) # n_jobs is for multithreading
-# # clf = svm.SVR(kernel='poly')
-# clf.fit(X_train, y_train)
-#
+clf =  LinearRegression(n_jobs=-1) # n_jobs is for multithreading
+# clf = svm.SVR(kernel='poly')
+clf.fit(X_train, y_train)
+
 # with open('linearregression.pickle', 'wb') as f:
 #     pickle.dump(clf, f)
-
-pickle_in = open('linearregression.pickle', 'rb')
-clf = pickle.load(pickle_in)
+#
+# pickle_in = open('linearregression.pickle', 'rb')
+# clf = pickle.load(pickle_in)
 
 accuracy = clf.score(X_test, y_test)
+print(accuracy)
 forecast_set = clf.predict(X_lately)
 print(forecast_set, accuracy, forecast_out)
 df['Forecast'] = np.nan

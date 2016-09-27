@@ -36,13 +36,13 @@ accuracies = []
 for i in range(25):
     df = pd.read_csv(
         './uci_breast_cancer_dataset/breast-cancer-wisconsin.data.txt')
+    # print(df.head())
     df.replace('?', -99999, inplace=True)
     df.drop(['id'], 1, inplace=True)
     # astype(float) to convert all the data to folat variables
     # .values.tolist() is not to loose the relationship of the features
     #  when shuffled
     full_data = df.astype(float).values.tolist()
-    # print(full_data[:5])
     random.shuffle(full_data)
     # print(20*'#')
     # print(full_data[:5])
@@ -66,11 +66,11 @@ for i in range(25):
             vote, confidence = k_nearest_neighbors(train_set, data, k=5)
             if group == vote:
                 correct += 1
-            else:
-                print(confidence)
+            # else:
+                # print(confidence)
             total += 1
 
-    print('Accuracy:', correct / total)
+    # print('Accuracy:', correct / total)
     accuracies.append(correct / total)
 
 print(sum(accuracies) / len(accuracies))

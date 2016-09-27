@@ -56,6 +56,7 @@ class SupportVectorMachine:
         step_sizes = [self.max_feature_value * 1,
                       self.max_feature_value * 0.1,
                       self.max_feature_value * 0.01,
+                      self.max_feature_value * 0.001,
                       # point of expense: check this out commenting
                       #  the below line
                       # self.max_feature_value * 0.001,
