@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96e2192f-61a2-4bac-aa5e-2046b36354ef" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_D.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_works/triangle-project/doc/api.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_works/triangle-project/doc/guide.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_works/triangle-project/doc/tutorial.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_A.py" afterPath="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_A.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_C.py" afterPath="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_C.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Algorithms/HW2/plotter_B.py" afterPath="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_B.py" />
+    </list>
+    <list id="6f259366-bf2e-42f5-8c0c-63bfc7d091d6" name="Failed commit: Default" comment="Algo's update" />
+    <ignored path="course_works.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="course_works" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="insertion_sort.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/insertion_sort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertion_sort.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/HW2/insertion_sort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="17" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quick_sort.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/HW2/quick_sort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="65" column="60" selection-start-line="65" selection-start-column="60" selection-end-line="65" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plotter_C.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_C.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+              <folding>
+                <element signature="e#30#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plotter_D.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_D.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="99" column="47" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
+              <folding>
+                <element signature="e#30#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plotter_A.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_A.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="113" column="17" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
+              <folding>
+                <element signature="e#30#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plotter_B.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_B.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+              <folding>
+                <element signature="e#30#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="randomized_quick_sort.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/randomized_quick_sort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="35" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../project_works/triangle-project/setup.py" />
+        <option value="$PROJECT_DIR$/../project_works/triangle-project/doc/api1.rst" />
+        <option value="$PROJECT_DIR$/../project_works/triangle-project/doc/index.rst" />
+        <option value="$PROJECT_DIR$/../project_works/triangle-project/texts/guide.rst" />
+        <option value="$PROJECT_DIR$/../project_works/triangle-project/texts/tutorial.rst" />
+        <option value="$PROJECT_DIR$/../project_works/triangle-project/doc/api.rst" />
+        <option value="$PROJECT_DIR$/../project_works/triangle-project/doc/tutorial.rst" />
+        <option value="$PROJECT_DIR$/../project_works/triangle-project/doc/guide.rst" />
+        <option value="$PROJECT_DIR$/../project_works/data-mining-walmart-sales/__init__.py" />
+        <option value="$PROJECT_DIR$/../project_works/data-mining-walmart-sales/read_data_functions.py" />
+        <option value="$PROJECT_DIR$/../project_works/data-mining-walmart-sales/correlation_checker.py" />
+        <option value="$PROJECT_DIR$/../project_works/data-mining-walmart-sales/input_data_handler.py" />
+        <option value="$PROJECT_DIR$/Machine-Learning/pratice/regression/sample.py" />
+        <option value="$PROJECT_DIR$/Machine-Learning/pratice/regression/regressionSklearn.py" />
+        <option value="$PROJECT_DIR$/Machine-Learning/pratice/regression/sample_regression.py" />
+        <option value="$PROJECT_DIR$/Machine-Learning/pratice/regression/regression.py" />
+        <option value="$PROJECT_DIR$/Machine-Learning/pratice/KNN/knn.py" />
+        <option value="$PROJECT_DIR$/Machine-Learning/pratice/KNN/knn_breast_cancer.py" />
+        <option value="$PROJECT_DIR$/Machine-Learning/pratice/KMeans/KMeans_sklearn.py" />
+        <option value="$PROJECT_DIR$/Machine-Learning/pratice/KMeans/KMeans_titanic_sklearn.py" />
+        <option value="$PROJECT_DIR$/../IUB Course work/MachineLearning/HomeWorks/HW1/simulate.py" />
+        <option value="$PROJECT_DIR$/other python works/examples/ex1_uday.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW1/q5plot.py" />
+        <option value="$PROJECT_DIR$/other python works/examples/people_in_circle.py" />
+        <option value="$PROJECT_DIR$/Machine-Learning/pratice/DecisionTree/monks-4.train.txt" />
+        <option value="$PROJECT_DIR$/Machine-Learning/pratice/DecisionTree/monks-4.test.txt" />
+        <option value="$PROJECT_DIR$/Machine-Learning/pratice/DecisionTree/decision_tree1.py" />
+        <option value="$PROJECT_DIR$/Machine-Learning/pratice/DecisionTree/test.py" />
+        <option value="$PROJECT_DIR$/Machine-Learning/pratice/DecisionTree/decision_tree.py" />
+        <option value="$PROJECT_DIR$/Machine-Learning/pratice/svm/svm.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp13859/nfs/nfs4/home/vmarni/insertion_sort.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp19315/nfs/nfs4/home/vmarni/insertion_sort.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp54028/nfs/nfs4/home/vmarni/quick_sort.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW2/code_submission/insertion_sort.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW2/randomized_quick_sort.py" />
+        <option value="$USER_HOME$/Downloads/submissions/temp.py.txt" />
+        <option value="$PROJECT_DIR$/other python works/AML_grading/unzip.py" />
+        <option value="$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/bylaiahsubhash_6012334_64774216_PAONE_sbylaiah/submission/TreeClassifier.py" />
+        <option value="$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/python2/bylaiahsubhash_6012334_64774216_PAONE_sbylaiah/submission/TreeClassifier.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW2/quick_sort.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW2/insertion_sort.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW2/plot.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp26626/nfs/nfs4/home/vmarni/plotter2.7.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW2/code_submission/quick_sort.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW2/plotter2.7.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW2/code_submission/randomized_quick_sort.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW2/plotter.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_B.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_C.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_A.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_D.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyPep8NamingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="course_works" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="course_works" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="course_works" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\google_drive\course_works\Machine-Learning\pratice_sentdex\svm" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\google_drive\course_works\Algorithms\HW2\code_submission" />
+      <recent name="E:\google_drive\course_works\Machine-Learning\pratice\DecisionTree\data" />
+      <recent name="E:\google_drive\course_works\Machine-Learning\pratice" />
+      <recent name="E:\google_drive\project_works\triangle-project\doc" />
+      <recent name="E:\google_drive\course_works" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.plotter_D">
+    <configuration default="false" name="plotter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms/HW2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="course_works" />
+      <option name="SCRIPT_NAME" value="E:\google_drive\course_works\Algorithms\HW2\code_submission\plotter_B.py" />
+      <option name="PARAMETERS" value="1000000" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="randomized_quick_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms/HW2/code_submission" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="course_works" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/HW2/code_submission/randomized_quick_sort.py" />
+      <option name="PARAMETERS" value="10" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="plotter_C" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms/HW2/code_submission" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="course_works" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_C.py" />
+      <option name="PARAMETERS" value="4000" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="plotter_A" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms/HW2/code_submission" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="course_works" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_A.py" />
+      <option name="PARAMETERS" value="1000" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="plotter_D" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms/HW2/code_submission" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="course_works" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_D.py" />
+      <option name="PARAMETERS" value="4000" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="course_works" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="course_works" />
+      <method />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="course_works" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="course_works" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="course_works" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="course_works" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="course_works" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="course_works" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="course_works" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="insertion_sort" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms/HW2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="course_works" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/HW2/insertion_sort.py" />
+      <option name="PARAMETERS" value="10000" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="decision_tree" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Machine-Learning/pratice/DecisionTree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="course_works" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Machine-Learning/pratice/DecisionTree/decision_tree.py" />
+      <option name="PARAMETERS" value="11" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Python.insertion_sort" />
+      <item index="1" class="java.lang.String" itemvalue="Python.decision_tree" />
+      <item index="2" class="java.lang.String" itemvalue="Python.plotter" />
+      <item index="3" class="java.lang.String" itemvalue="Python.randomized_quick_sort" />
+      <item index="4" class="java.lang.String" itemvalue="Python.plotter_C" />
+      <item index="5" class="java.lang.String" itemvalue="Python.plotter_A" />
+      <item index="6" class="java.lang.String" itemvalue="Python.plotter_D" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.plotter_D" />
+        <item index="1" class="java.lang.String" itemvalue="Python.plotter_A" />
+        <item index="2" class="java.lang.String" itemvalue="Python.plotter_C" />
+        <item index="3" class="java.lang.String" itemvalue="Python.plotter" />
+        <item index="4" class="java.lang.String" itemvalue="Python.randomized_quick_sort" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Shiridi\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96e2192f-61a2-4bac-aa5e-2046b36354ef" name="Default" comment="" />
+      <created>1464212985231</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1464212985231</updated>
+    </task>
+    <task id="LOCAL-00001" summary="code update">
+      <created>1464213241505</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1464213241505</updated>
+    </task>
+    <task id="LOCAL-00002" summary="image recognition code update&#10;&#10;notes: completion of code, comparison method need modification for better accuracy, performance is good, time taken to build the tree is quit long but as it one time process it must be ok">
+      <created>1465278666868</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1465278666868</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ML-sentdex-Linear regression commit">
+      <created>1465946685381</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1465946685381</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ML-sentdex-KNN commit">
+      <created>1465966281289</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1465966281289</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ML-sentdex-KNN commit">
+      <created>1465966298037</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1465966298037</updated>
+    </task>
+    <task id="LOCAL-00006" summary="machine learning SVM commit">
+      <created>1466377232015</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1466377232015</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Python data visualization with Matplotlib&#10;anootations &amp; placing text&#10;barChart&#10;CandleStick_OHLC&#10;getting data from internet&#10;handling unix time in matplotlib&#10;histograms&#10;line graphs&#10;live graphs&#10;pie charts&#10;scatter plots&#10;stack plots&#10;styles&#10;subplots&#10;">
+      <created>1467498287010</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1467498287010</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update - 3dplots, Basemaps, subplots2stock_charts&#10;">
+      <created>1467530236370</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1467530236370</updated>
+    </task>
+    <task id="LOCAL-00009" summary="code need to be completed in the tree buildind section">
+      <created>1467596982019</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1467596982019</updated>
+    </task>
+    <task id="LOCAL-00010" summary="cofe formatting update upto HW2 q6&#10;&#10;HW2: q6 code need to be completed in the tree buildind section">
+      <created>1467597199484</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1467597199484</updated>
+    </task>
+    <task id="LOCAL-00011" summary="cofe formatting update upto HW2 q6&#10;&#10;HW2: q6 code need to be completed in the tree buildind section">
+      <created>1467597277128</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1467597277128</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1904762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32561728" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33128834" sideWeight="0.5119048" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33179012" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32515338" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33128834" sideWeight="0.48809522" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3220859" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3105802" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39969373" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32561728" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32561728" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33128834" sideWeight="0.5089286" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39969373" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33179012" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32561728" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3686007" sideWeight="0.49107143" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3220859" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22258064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32561728" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3113497" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="code update" />
+    <MESSAGE value="image recognition code update&#10;&#10;notes: completion of code, comparison method need modification for better accuracy, performance is good, time taken to build the tree is quit long but as it one time process it must be ok" />
+    <MESSAGE value="ML-sentdex-Linear regression commit" />
+    <MESSAGE value="ML-sentdex-KNN commit" />
+    <MESSAGE value="machine learning SVM commit" />
+    <MESSAGE value="Python data visualization with Matplotlib&#10;anootations &amp; placing text&#10;barChart&#10;CandleStick_OHLC&#10;getting data from internet&#10;handling unix time in matplotlib&#10;histograms&#10;line graphs&#10;live graphs&#10;pie charts&#10;scatter plots&#10;stack plots&#10;styles&#10;subplots&#10;" />
+    <MESSAGE value="update - 3dplots, Basemaps, subplots2stock_charts&#10;" />
+    <MESSAGE value="code need to be completed in the tree buildind section" />
+    <MESSAGE value="cofe formatting update upto HW2 q6&#10;&#10;HW2: q6 code need to be completed in the tree buildind section" />
+    <MESSAGE value="Algo's update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algo's update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/other python works/examples/ex2_uday.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Machine-Learning/pratice/KMeans/KMeans_sklearn.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Machine-Learning/pratice/DecisionTree/decision_tree.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/nagarajanganesh_5993268_64743094_paone_gnagaraj/monks.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="102" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/shahraksheshrajeshkumar_6034901_64745186_paone_12-1/paone_12/information_gain.py" />
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/shenoygourav_5995075_64772356_paone_goshenoy/submission/source_code/decision_tree/DecisionTree.py" />
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/singhgotit_late_6077402_64774418_PAOne/singhgotit_late_6077402_64774418_PAOne/PAOne/Decision_Tree.py" />
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/sripadakrishnapramodvenkatasatya_5996045_64774094_paone_ksripada/sripadakrishnapramodvenkatasatya_5996045_64774094_paone_ksripada/ProgrammingAssignment/aml_monks.py" />
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/sureshbabukishorevignesh_6045621_64774072_paone_vsureshb/paone_vsureshb/Solutions/Code and Code Datasets/solution.py" />
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/surinaren_5993286_64774309_toSubmit/surinaren_5993286_64774309_toSubmit/toSubmit/DecisionTress/DataProcessing.py" />
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/surinaren_5993286_64774309_toSubmit/surinaren_5993286_64774309_toSubmit/toSubmit/DecisionTress/DecisionTree.py" />
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/surinaren_5993286_64774309_toSubmit/surinaren_5993286_64774309_toSubmit/toSubmit/DecisionTress/DecisionNode.py" />
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/taycharlene_5585874_64771335_AML_PA1_ctay_mbirla/AML_PA1_ctay_mbirla/DecisionTree.py" />
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/tereatharva_6080439_64772405_agtere/AGTERE AML PA1/Python/DTFinal.py.py" />
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/tikoneneelam_5993258_64773848_paone_ntikone-2/paone_ntikone/DecTree.py" />
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/udohemmanuel_5762159_64772525_paone_eudoh-1/paone_eudoh/eudoh_decTree.py" />
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/waglemangirish_5992745_64772399_paone_mawagle/decision_tree_classifier/data_import_handler.py" />
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/waglemangirish_5992745_64772399_paone_mawagle/decision_tree_classifier/test_util.py" />
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/whitleyderek_6008678_64769865_paone_dcwhitle/whitleyderek_6008678_64769865_paone_dcwhitle/paone_dcwhitle/Script and Data/tree_structure.py" />
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/xiongbeixian_5993064_64768657_paone_bxiong-1/xiongbeixian_5993064_64768657_paone_bxiong-1/AML_assignment/code/decision_tree.py" />
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/python2/annavajjalaharish_late_6001208_64774376_paone_hannavaj-1/paone_hannavaj/Monks/MonksDecissionTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="163" column="4" selection-start-line="163" selection-start-column="4" selection-end-line="163" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataVisualization/live_graphs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-269">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine-Learning/pratice/DecisionTree/decision_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4995">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataVisualization/scatterplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataVisualization/styles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp13859/nfs/nfs4/home/vmarni/insertion_sort.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp19315/nfs/nfs4/home/vmarni/insertion_sort.py" />
+    <entry file="file://C:/Python34/Lib/site-packages/numpy/core/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp54028/nfs/nfs4/home/vmarni/quick_sort.py" />
+    <entry file="file://C:/Python34/Lib/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="1868" column="0" selection-start-line="1868" selection-start-column="0" selection-end-line="1868" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/site-packages/numpy/core/arrayprint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="441" column="0" selection-start-line="441" selection-start-column="0" selection-end-line="441" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/randomized_quick_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="34" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other python works/examples/people_in_circle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/submissions/temp.py.txt" />
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/bylaiahsubhash_6012334_64774216_PAONE_sbylaiah/submission/TreeClassifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/python2/bylaiahsubhash_6012334_64774216_PAONE_sbylaiah/submission/TreeClassifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/indanavenkataprudhviraj_5962803_64774259_Vindana Rnallani/PA1 Assignment/FinaldecisionTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/submissions/unzipped/acharsoumya_6003744_64774009_paone_soachar_/paone_soachar_/decisionTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4525">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/submissions/unzipped/guruprasadkavya_late_6075432_64786464_paone_2000092786/New folder/decision_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other python works/AML_grading/unzip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/insertion_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/insertion_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="104" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="124" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataVisualization/Line.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataVisualization/BarChart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataVisualization/annotations&amp;placing_text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataVisualization/subplots2stock_charts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="125" column="35" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/quick_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp26626/nfs/nfs4/home/vmarni/plotter2.7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/randomized_quick_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="35" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/quick_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="65" column="60" selection-start-line="65" selection-start-column="60" selection-end-line="65" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_B.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+          <folding>
+            <element signature="e#30#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_C.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+          <folding>
+            <element signature="e#30#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_A.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="113" column="17" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
+          <folding>
+            <element signature="e#30#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_D.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="99" column="47" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
+          <folding>
+            <element signature="e#30#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

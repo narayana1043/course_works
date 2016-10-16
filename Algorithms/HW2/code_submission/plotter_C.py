@@ -79,7 +79,7 @@ if __name__ == '__main__':
         insertion_sorted_list = insertion_sort(unsorted_list)
         stop = time.time()
         time_elapsed = stop - start
-        print input_size, time_elapsed
+        # print (input_size, time_elapsed)
         input_size_list_insertion_sort.append(input_size)
         run_time_list_insertion_sort.append(time_elapsed)
 
@@ -87,7 +87,7 @@ if __name__ == '__main__':
         quick_sorted_list = quick_sort_algo(unsorted_list)
         stop = time.time()
         time_elapsed = stop - start
-        print input_size, time_elapsed
+        # print (input_size, time_elapsed)
         input_size_list_quick_sort.append(input_size)
         run_time_list_quick_sort.append(time_elapsed)
 
@@ -98,11 +98,11 @@ if __name__ == '__main__':
         else:
             i += input_size_list_quick_sort[-2]
 
-    print input_size_list_insertion_sort, run_time_list_insertion_sort
-    print input_size_list_quick_sort, run_time_list_quick_sort
+    print (input_size_list_insertion_sort, run_time_list_insertion_sort)
+    print (input_size_list_quick_sort, run_time_list_quick_sort)
 
     fig = plt.figure()
-    plt.title('Insertion sort vs Quick Sort Running Time Comparisions')
+    plt.title('Insertion sort vs Quick Sort Running Time Comparisions for sorted input')
     plt.grid(True)
 
     blue_line, = plot_graph(input_size_list_insertion_sort, run_time_list_insertion_sort)

@@ -5,6 +5,5 @@
     <mapping directory="$PROJECT_DIR$/Artificial-Intelligence" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Data-Mining" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Sentimental-Analysis" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../project_works" vcs="Git" />
   </component>
 </project>

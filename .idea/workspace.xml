@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96e2192f-61a2-4bac-aa5e-2046b36354ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_works/triangle-project/doc/api.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_works/triangle-project/doc/guide.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_works/triangle-project/doc/tutorial.rst" />
-    </list>
-    <list id="6f259366-bf2e-42f5-8c0c-63bfc7d091d6" name="Failed commit: Default" comment="Algo's update">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/HW2/code_submission/greed_quotient.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_D.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/HW2/greed_quotient.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/HW3/fibonacci.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/HW3/merging.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/HW3/tower_of_honai.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DataVisualization/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Machine-Learning/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.ini" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/course_works.iml" afterPath="$PROJECT_DIR$/.idea/course_works.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_A.py" afterPath="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_A.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_C.py" afterPath="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_C.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithms/HW2/code_submission/randomized_quick_sort.py" afterPath="$PROJECT_DIR$/Algorithms/HW2/code_submission/randomized_quick_sort.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Algorithms/HW2/plotter_B.py" afterPath="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_B.py" />
     </list>
+    <list id="6f259366-bf2e-42f5-8c0c-63bfc7d091d6" name="Failed commit: Default" comment="Algo's update" />
     <ignored path="course_works.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,84 +41,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="insertion_sort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/insertion_sort.py">
+      <file leaf-file-name="regressionalgorithms.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Machine-Learning/HW2/regressionalgorithms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="162" column="20" selection-start-line="162" selection-start-column="20" selection-end-line="162" selection-end-column="20" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#0#58#0" expanded="true" />
+                <element signature="e#171#1422#0" expanded="false" />
+                <element signature="e#1461#2034#0" expanded="false" />
+                <element signature="e#2080#2438#0" expanded="false" />
+                <element signature="e#2481#3606#0" expanded="false" />
+                <element signature="e#2583#2677#0" expanded="false" />
+                <element signature="e#2753#3438#0" expanded="false" />
+                <element signature="e#3486#3606#0" expanded="false" />
+                <element signature="e#3649#6483#0" expanded="false" />
+                <element signature="e#3775#3873#0" expanded="false" />
+                <element signature="e#3964#4390#1" expanded="false" />
+                <element signature="e#6527#6614#1" expanded="false" />
+                <element signature="e#6656#6782#0" expanded="false" />
+                <element signature="e#7197#7982#0" expanded="false" />
+                <element signature="e#7740#7957#0" expanded="false" />
+                <element signature="e#8022#8128#0" expanded="false" />
+                <element signature="e#8171#8198#0" expanded="false" />
+                <element signature="e#8242#9679#0" expanded="false" />
+                <element signature="e#8242#8329#1" expanded="false" />
+                <element signature="e#8371#8469#0" expanded="false" />
+                <element signature="e#9725#11265#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="insertion_sort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/HW2/insertion_sort.py">
+      <file leaf-file-name="utilities.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Machine-Learning/HW2/utilities.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quick_sort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/HW2/quick_sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="65" column="60" selection-start-line="65" selection-start-column="60" selection-end-line="65" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plotter_C.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_C.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-              <folding>
-                <element signature="e#30#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plotter_A.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_A.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
-              <folding>
-                <element signature="e#30#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plotter_B.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/HW2/plotter_B.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-              <folding>
-                <element signature="e#30#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="randomized_quick_sort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/randomized_quick_sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="35" selection-end-column="29" />
+            <state relative-caret-position="216">
+              <caret line="100" column="13" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script_regression.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Machine-Learning/HW2/script_regression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="209" column="71" selection-start-line="209" selection-start-column="71" selection-end-line="209" selection-end-column="71" />
+              <folding>
+                <element signature="e#249#354#0" expanded="false" />
+                <element signature="e#389#468#0" expanded="false" />
+                <element signature="e#512#604#0" expanded="false" />
+                <element signature="e#644#734#0" expanded="false" />
+                <element signature="e#1419#3190#0" expanded="false" />
+                <element signature="e#2597#3190#0" expanded="false" />
+                <element signature="e#3230#5675#0" expanded="false" />
+                <element signature="e#5730#7301#0" expanded="false" />
+                <element signature="e#9011#10608#0" expanded="false" />
+                <element signature="e#10648#12341#0" expanded="false" />
+                <element signature="e#12381#14193#0" expanded="false" />
+                <element signature="e#14305#14405#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,18 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../project_works/walmart_project/requirements.txt" />
-        <option value="$PROJECT_DIR$/../project_works/triangle-project/doc/conf.py" />
-        <option value="$PROJECT_DIR$/../project_works/triangle-project/setup.py" />
-        <option value="$PROJECT_DIR$/../project_works/triangle-project/doc/api1.rst" />
-        <option value="$PROJECT_DIR$/../project_works/triangle-project/doc/index.rst" />
-        <option value="$PROJECT_DIR$/../project_works/triangle-project/texts/guide.rst" />
-        <option value="$PROJECT_DIR$/../project_works/triangle-project/texts/tutorial.rst" />
-        <option value="$PROJECT_DIR$/../project_works/triangle-project/doc/api.rst" />
-        <option value="$PROJECT_DIR$/../project_works/triangle-project/doc/tutorial.rst" />
-        <option value="$PROJECT_DIR$/../project_works/triangle-project/doc/guide.rst" />
-        <option value="$PROJECT_DIR$/../project_works/data-mining-walmart-sales/__init__.py" />
-        <option value="$PROJECT_DIR$/../project_works/data-mining-walmart-sales/read_data_functions.py" />
         <option value="$PROJECT_DIR$/../project_works/data-mining-walmart-sales/correlation_checker.py" />
         <option value="$PROJECT_DIR$/../project_works/data-mining-walmart-sales/input_data_handler.py" />
         <option value="$PROJECT_DIR$/Machine-Learning/pratice/regression/sample.py" />
@@ -172,10 +157,22 @@
         <option value="$USER_HOME$/AppData/Local/Temp/scp26626/nfs/nfs4/home/vmarni/plotter2.7.py" />
         <option value="$PROJECT_DIR$/Algorithms/HW2/code_submission/quick_sort.py" />
         <option value="$PROJECT_DIR$/Algorithms/HW2/plotter2.7.py" />
-        <option value="$PROJECT_DIR$/Algorithms/HW2/code_submission/randomized_quick_sort.py" />
         <option value="$PROJECT_DIR$/Algorithms/HW2/plotter.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW2/code_submission/randomized_quick_sort.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW2/code_submission/greed_quotient.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW2/greed_quotient.py" />
         <option value="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_A.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_B.py" />
         <option value="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_C.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_D.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW3/recursion.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW3/fibonacci.py" />
+        <option value="$PROJECT_DIR$/Algorithms/HW3/merging.py" />
+        <option value="$PROJECT_DIR$/Machine-Learning/HW2/dataloader.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp56324/nfs/nfs4/home/vmarni/HW2/HW2/regressionalgorithms.py" />
+        <option value="$PROJECT_DIR$/Machine-Learning/HW2/utilities.py" />
+        <option value="$PROJECT_DIR$/Machine-Learning/HW2/regressionalgorithms.py" />
+        <option value="$PROJECT_DIR$/Machine-Learning/HW2/script_regression.py" />
       </list>
     </option>
   </component>
@@ -232,6 +229,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -241,18 +239,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="course_works" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="course_works" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\google_drive\course_works\Machine-Learning" />
       <recent name="E:\google_drive\course_works\Machine-Learning\pratice_sentdex\svm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -263,90 +271,94 @@
       <recent name="E:\google_drive\course_works" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.plotter_C">
-    <configuration default="false" name="plotter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.script_regression">
+    <configuration default="false" name="script_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms/HW2" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="C:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Machine-Learning/HW2" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="course_works" />
-      <option name="SCRIPT_NAME" value="E:\google_drive\course_works\Algorithms\HW2\plotter_B.py" />
-      <option name="PARAMETERS" value="1000000" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="plotter2.7" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms/HW2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="course_works" />
-      <option name="SCRIPT_NAME" value="E:\google_drive\course_works\Algorithms\HW2\code_submission\plotter_A.py" />
-      <option name="PARAMETERS" value="4000" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="subplots2stock_charts" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataVisualization" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="course_works" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataVisualization/subplots2stock_charts.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Machine-Learning/HW2/script_regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="randomized_quick_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="utilities" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms/HW2/code_submission" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Machine-Learning/HW2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="course_works" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/HW2/code_submission/randomized_quick_sort.py" />
-      <option name="PARAMETERS" value="10" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Machine-Learning/HW2/utilities.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="plotter_C" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="regressionalgorithms" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Machine-Learning/HW2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="course_works" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Machine-Learning/HW2/regressionalgorithms.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="plotfcns" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms/HW2/code_submission" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Machine-Learning/HW2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="course_works" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_C.py" />
-      <option name="PARAMETERS" value="4000" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Machine-Learning/HW2/plotfcns.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetests in HW2" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Machine-Learning/HW2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="course_works" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="$PROJECT_DIR$/Machine-Learning/HW2" />
+      <option name="TEST_TYPE" value="TEST_FOLDER" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -554,19 +566,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python.insertion_sort" />
       <item index="1" class="java.lang.String" itemvalue="Python.decision_tree" />
-      <item index="2" class="java.lang.String" itemvalue="Python.plotter" />
-      <item index="3" class="java.lang.String" itemvalue="Python.plotter2.7" />
-      <item index="4" class="java.lang.String" itemvalue="Python.subplots2stock_charts" />
-      <item index="5" class="java.lang.String" itemvalue="Python.randomized_quick_sort" />
-      <item index="6" class="java.lang.String" itemvalue="Python.plotter_C" />
+      <item index="2" class="java.lang.String" itemvalue="Python.script_regression" />
+      <item index="3" class="java.lang.String" itemvalue="Python.utilities" />
+      <item index="4" class="java.lang.String" itemvalue="Python.regressionalgorithms" />
+      <item index="5" class="java.lang.String" itemvalue="Python.plotfcns" />
+      <item index="6" class="java.lang.String" itemvalue="Python tests.Nosetests in HW2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.plotter_C" />
-        <item index="1" class="java.lang.String" itemvalue="Python.plotter" />
-        <item index="2" class="java.lang.String" itemvalue="Python.randomized_quick_sort" />
-        <item index="3" class="java.lang.String" itemvalue="Python.plotter2.7" />
-        <item index="4" class="java.lang.String" itemvalue="Python.subplots2stock_charts" />
+        <item index="0" class="java.lang.String" itemvalue="Python.script_regression" />
+        <item index="1" class="java.lang.String" itemvalue="Python.regressionalgorithms" />
+        <item index="2" class="java.lang.String" itemvalue="Python.plotfcns" />
+        <item index="3" class="java.lang.String" itemvalue="Python.utilities" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in HW2" />
       </list>
     </recent_temporary>
   </component>
@@ -664,6 +676,11 @@
     <option name="localTasksCounter" value="12" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Nosetests_in_HW2 - 2016.10.08 at 02h 38m 51s.xml">
+      <configuration name="Nosetests in HW2" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -675,45 +692,45 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1904762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32561728" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33128834" sideWeight="0.5119048" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33179012" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35429448" sideWeight="0.51488096" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33128834" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32515338" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33128834" sideWeight="0.48809522" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3220859" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32055214" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3105802" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39969373" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2791411" sideWeight="0.48511904" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32561728" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36888888" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32561728" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33128834" sideWeight="0.5089286" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35582823" sideWeight="0.51488096" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39969373" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33179012" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32561728" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3686007" sideWeight="0.49107143" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3220859" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22258064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33128834" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32515338" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3576751" sideWeight="0.48511904" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32055214" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18795888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32561728" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3113497" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3695976" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -767,70 +784,11 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="102" />
+      <option name="time" value="170" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/shahraksheshrajeshkumar_6034901_64745186_paone_12-1/paone_12/decision_tree.py" />
-    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/shahraksheshrajeshkumar_6034901_64745186_paone_12-1/paone_12/information_gain.py" />
-    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/shenoygourav_5995075_64772356_paone_goshenoy/submission/source_code/decision_tree/DecisionTree.py" />
-    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/singhgotit_late_6077402_64774418_PAOne/singhgotit_late_6077402_64774418_PAOne/PAOne/Decision_Tree.py" />
-    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/sripadakrishnapramodvenkatasatya_5996045_64774094_paone_ksripada/sripadakrishnapramodvenkatasatya_5996045_64774094_paone_ksripada/ProgrammingAssignment/aml_monks.py" />
-    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/sureshbabukishorevignesh_6045621_64774072_paone_vsureshb/paone_vsureshb/Solutions/Code and Code Datasets/solution.py" />
-    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/surinaren_5993286_64774309_toSubmit/surinaren_5993286_64774309_toSubmit/toSubmit/DecisionTress/DataProcessing.py" />
-    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/surinaren_5993286_64774309_toSubmit/surinaren_5993286_64774309_toSubmit/toSubmit/DecisionTress/DecisionTree.py" />
-    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/surinaren_5993286_64774309_toSubmit/surinaren_5993286_64774309_toSubmit/toSubmit/DecisionTress/DecisionNode.py" />
-    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/taycharlene_5585874_64771335_AML_PA1_ctay_mbirla/AML_PA1_ctay_mbirla/DecisionTree.py" />
-    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/tereatharva_6080439_64772405_agtere/AGTERE AML PA1/Python/DTFinal.py.py" />
-    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/tikoneneelam_5993258_64773848_paone_ntikone-2/paone_ntikone/DecTree.py" />
-    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/udohemmanuel_5762159_64772525_paone_eudoh-1/paone_eudoh/eudoh_decTree.py" />
-    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/waglemangirish_5992745_64772399_paone_mawagle/decision_tree_classifier/data_import_handler.py" />
-    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/waglemangirish_5992745_64772399_paone_mawagle/decision_tree_classifier/test_util.py" />
-    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/whitleyderek_6008678_64769865_paone_dcwhitle/whitleyderek_6008678_64769865_paone_dcwhitle/paone_dcwhitle/Script and Data/tree_structure.py" />
-    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/xiongbeixian_5993064_64768657_paone_bxiong-1/xiongbeixian_5993064_64768657_paone_bxiong-1/AML_assignment/code/decision_tree.py" />
-    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/python2/annavajjalaharish_late_6001208_64774376_paone_hannavaj-1/paone_hannavaj/Monks/MonksDecissionTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="163" column="4" selection-start-line="163" selection-start-column="4" selection-end-line="163" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataVisualization/live_graphs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-269">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine-Learning/pratice/DecisionTree/decision_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4995">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataVisualization/scatterplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataVisualization/styles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp13859/nfs/nfs4/home/vmarni/insertion_sort.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp19315/nfs/nfs4/home/vmarni/insertion_sort.py" />
     <entry file="file://C:/Python34/Lib/site-packages/numpy/core/function_base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -843,7 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="1868" column="0" selection-start-line="1868" selection-start-column="0" selection-end-line="1868" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -869,13 +826,7 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/submissions/temp.py.txt" />
-    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/bylaiahsubhash_6012334_64774216_PAONE_sbylaiah/submission/TreeClassifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/bylaiahsubhash_6012334_64774216_PAONE_sbylaiah/submission/TreeClassifier.py" />
     <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/python2/bylaiahsubhash_6012334_64774216_PAONE_sbylaiah/submission/TreeClassifier.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -883,13 +834,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/indanavenkataprudhviraj_5962803_64774259_Vindana Rnallani/PA1 Assignment/FinaldecisionTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../IUBCourseWork/Applied Machine Learning/ProgrammingAssignments/PA1/submissions/unzipped_python/indanavenkataprudhviraj_5962803_64774259_Vindana Rnallani/PA1 Assignment/FinaldecisionTree.py" />
     <entry file="file://E:/submissions/unzipped/acharsoumya_6003744_64774009_paone_soachar_/paone_soachar_/decisionTree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4525">
@@ -911,39 +856,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/insertion_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/insertion_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="104" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="124" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/plot.py" />
     <entry file="file://$PROJECT_DIR$/DataVisualization/Line.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -951,7 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,7 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -967,47 +882,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="125" column="35" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/quick_sort.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp26626/nfs/nfs4/home/vmarni/plotter2.7.py" />
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/insertion_sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp26626/nfs/nfs4/home/vmarni/plotter2.7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/randomized_quick_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="35" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/plotter_B.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding>
-            <element signature="e#30#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="17" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1015,28 +897,239 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="65" column="60" selection-start-line="65" selection-start-column="60" selection-end-line="65" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/greed_quotient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/HW2/codes/plotter_A.py" />
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/greed_quotient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="68" column="9" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/insertion_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_A.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
-          <folding>
-            <element signature="e#30#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1326">
+          <caret line="83" column="15" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_B.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_C.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        <state relative-caret-position="1683">
+          <caret line="104" column="72" selection-start-line="104" selection-start-column="72" selection-end-line="104" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/quick_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/plotter_D.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="91" column="42" selection-start-line="91" selection-start-column="42" selection-end-line="91" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW2/code_submission/randomized_quick_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW3/tower_of_honai.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW3/fibonacci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/HW3/merging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine-Learning/HW2/datasets/slice_localization_data.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/site-packages/scipy/optimize/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/site-packages/scipy/optimize/tnc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine-Learning/HW2/plotfcns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/numpy/lib/twodim_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="1868" column="0" selection-start-line="1868" selection-start-column="0" selection-end-line="1868" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/scipy/optimize/optimize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4862">
+          <caret line="286" column="26" selection-start-line="286" selection-start-column="26" selection-end-line="286" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/scipy/stats/stats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="3028" column="0" selection-start-line="3028" selection-start-column="0" selection-end-line="3028" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/numpy/linalg/linalg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="514" column="0" selection-start-line="514" selection-start-column="0" selection-end-line="514" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine-Learning/HW2/dataloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="96" column="37" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp56324/nfs/nfs4/home/vmarni/HW2/HW2/regressionalgorithms.py" />
+    <entry file="file://$PROJECT_DIR$/Machine-Learning/HW2/script_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="209" column="71" selection-start-line="209" selection-start-column="71" selection-end-line="209" selection-end-column="71" />
           <folding>
-            <element signature="e#30#41#0" expanded="true" />
+            <element signature="e#249#354#0" expanded="false" />
+            <element signature="e#389#468#0" expanded="false" />
+            <element signature="e#512#604#0" expanded="false" />
+            <element signature="e#644#734#0" expanded="false" />
+            <element signature="e#1419#3190#0" expanded="false" />
+            <element signature="e#2597#3190#0" expanded="false" />
+            <element signature="e#3230#5675#0" expanded="false" />
+            <element signature="e#5730#7301#0" expanded="false" />
+            <element signature="e#9011#10608#0" expanded="false" />
+            <element signature="e#10648#12341#0" expanded="false" />
+            <element signature="e#12381#14193#0" expanded="false" />
+            <element signature="e#14305#14405#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine-Learning/HW2/utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="100" column="13" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine-Learning/HW2/regressionalgorithms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="162" column="20" selection-start-line="162" selection-start-column="20" selection-end-line="162" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#171#1422#0" expanded="false" />
+            <element signature="e#1461#2034#0" expanded="false" />
+            <element signature="e#2080#2438#0" expanded="false" />
+            <element signature="e#2481#3606#0" expanded="false" />
+            <element signature="e#2583#2677#0" expanded="false" />
+            <element signature="e#2753#3438#0" expanded="false" />
+            <element signature="e#3486#3606#0" expanded="false" />
+            <element signature="e#3649#6483#0" expanded="false" />
+            <element signature="e#3775#3873#0" expanded="false" />
+            <element signature="e#3964#4390#1" expanded="false" />
+            <element signature="e#6527#6614#1" expanded="false" />
+            <element signature="e#6656#6782#0" expanded="false" />
+            <element signature="e#7197#7982#0" expanded="false" />
+            <element signature="e#7740#7957#0" expanded="false" />
+            <element signature="e#8022#8128#0" expanded="false" />
+            <element signature="e#8171#8198#0" expanded="false" />
+            <element signature="e#8242#9679#0" expanded="false" />
+            <element signature="e#8242#8329#1" expanded="false" />
+            <element signature="e#8371#8469#0" expanded="false" />
+            <element signature="e#9725#11265#0" expanded="false" />
           </folding>
         </state>
       </provider>

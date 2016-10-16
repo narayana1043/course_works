@@ -29,19 +29,19 @@ def randomized_partition(A, p, r):
     exchange(A[r], A[k])
     return partition(A, p, r)
 
-def quick_sort(A, p, r):
+def rquick_sort(A, p, r):
     if p < r:
         q = randomized_partition(A, p, r)
-        quick_sort(A, p, q-1)
-        quick_sort(A, q+1, r)
+        rquick_sort(A, p, q-1)
+        rquick_sort(A, q+1, r)
 
 
-def quick_sort_algo(unsorted_list):
+def rquick_sort_algo(unsorted_list):
     start = time.time()
     A = unsorted_list
     p = 0
     r = len(A) - 1
-    quick_sort(A, p, r)
+    rquick_sort(A, p, r)
     stop = time.time()
     running_time = stop - start
     return A, running_time
@@ -52,7 +52,7 @@ if __name__ == '__main__':
     low = -high
     unsorted_list  = generate_data(low, high, int(size))
     print('unsorted_list    :', unsorted_list)
-    sorted_list, time_elapsed = quick_sort_algo(unsorted_list)
+    sorted_list, time_elapsed = rquick_sort_algo(unsorted_list)
     print('sorted_list      :',sorted_list)
     if time_elapsed == 0:
         print('time elapsed is less than 0.001 sec....')

@@ -81,7 +81,7 @@ if __name__ == '__main__':
         insertion_sorted_list = insertion_sort(unsorted_list)
         stop = time.time()
         time_elapsed = stop - start
-        print input_size, time_elapsed
+        # print (input_size, time_elapsed)
         input_size_list_insertion_sort.append(input_size)
         run_time_list_insertion_sort.append(time_elapsed)
 
@@ -89,19 +89,19 @@ if __name__ == '__main__':
         quick_sorted_list = quick_sort_algo(unsorted_list)
         stop = time.time()
         time_elapsed = stop - start
-        print input_size, time_elapsed
+        # print (input_size, time_elapsed)
         input_size_list_quick_sort.append(input_size)
         run_time_list_quick_sort.append(time_elapsed)
 
         if i > k:
             break
-        elif len(input_size_list_insertion_sort) < 2:
+        elif len(input_size_list_insertion_sort) < 100:
             i += 1
         else:
             i += input_size_list_quick_sort[-2]
 
-    print input_size_list_insertion_sort, run_time_list_insertion_sort
-    print input_size_list_quick_sort, run_time_list_quick_sort
+    print (input_size_list_insertion_sort, run_time_list_insertion_sort)
+    print (input_size_list_quick_sort, run_time_list_quick_sort)
 
     fig = plt.figure()
     plt.title('Insertion sort vs Quick Sort Running Time Comparisions')
@@ -109,6 +109,18 @@ if __name__ == '__main__':
 
     blue_line, = plot_graph(input_size_list_insertion_sort, run_time_list_insertion_sort)
     red_line, = plot_graph(input_size_list_quick_sort, run_time_list_quick_sort)
+
+    cross_over_point = 0
+    tigger = True
+    for i in range(len(run_time_list_insertion_sort)):
+        if run_time_list_insertion_sort[i] - run_time_list_quick_sort[i] < 0:
+            trigger = True
+
+        if run_time_list_insertion_sort[i] - run_time_list_quick_sort[i] > 0:
+            cross_over_point = input_size_list_insertion_sort[i]
+            trigger = False
+
+    print(cross_over_point)
 
     plt.legend([blue_line, red_line], ['Insertion sort', 'Quick sort'])
 
