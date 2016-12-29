@@ -104,14 +104,15 @@ def geterr(X, Y, W):
     return abs(np.dot(np.subtract(np.dot(X, W), Y).T, np.subtract(np.dot(X, W), Y)))
 
 def proximalOperator(W, metaparam, eeta):
-    constant = metaparam*eeta
-    for w in range(W.shape[0]):
-        if W[w] > constant:
-            W[w] = W[w] - constant
-        elif W[w] < (-1*constant):
-            W[w] = W[w] + constant
-        elif abs(W[w]) <= constant:
-            W[w] = 0
+    if metaparam != 0:
+        constant = metaparam*eeta
+        for w in range(W.shape[0]):
+            if W[w] > constant:
+                W[w] = W[w] - constant
+            elif W[w] < (-1*constant):
+                W[w] = W[w] + constant
+            elif abs(W[w]) <= constant:
+                W[w] = 0
 
     return W
 

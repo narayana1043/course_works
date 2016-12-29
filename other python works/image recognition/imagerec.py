@@ -9,7 +9,7 @@ from statistics import mean
 from collections import Counter
 
 def createExammples():
-    numberArrayExamples = open('numArEx.txt','a')
+    numberArrayExamples = open('numbers.txt','a')
     numberWeHave = range(0,10)
     versionsWeHave = range(1,10)
 
@@ -54,7 +54,7 @@ def threshold(imageArray):
 
 def whatNumIsThis(filePath):
     matchedAr = []
-    loadExampls = open('numArEx.txt','r').read()
+    loadExampls = open('numbers.txt','r').read()
     loadExampls = loadExampls.split('\n')
 
     i = Image.open(filePath)

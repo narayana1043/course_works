@@ -1,4 +1,3 @@
-path = "E:\google_drive\IUBCourseWork\Applied Machine Learning\ProgrammingAssignments\submissions\\"
 path = "E:\submissions\\"
 
 
