@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96e2192f-61a2-4bac-aa5e-2046b36354ef" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Algorithms/desktop.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Machine-Learning/HW2/desktop.ini" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine-Learning/HandWrittenDigitRecogproject" afterPath="$PROJECT_DIR$/Machine-Learning/HandWrittenDigitRecogproject" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data-Mining/.idea/desktop.ini" afterPath="$PROJECT_DIR$/Data-Mining/.idea/desktop.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine-Learning/HandWrittenDigitRecogproject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Machine-Learning/HandWrittenDigitRecogproject/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine-Learning/HandWrittenDigitRecogproject/multilogit.py" afterPath="$PROJECT_DIR$/Machine-Learning/HandWrittenDigitRecogproject/multilogit.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine-Learning/HandWrittenDigitRecogproject/script.py" afterPath="$PROJECT_DIR$/Machine-Learning/HandWrittenDigitRecogproject/script.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine-Learning/HandWrittenDigitRecogproject/statistical_analysis/multilogit.csv" afterPath="$PROJECT_DIR$/Machine-Learning/HandWrittenDigitRecogproject/statistical_analysis/multilogit.csv" />
     </list>
     <list id="6f259366-bf2e-42f5-8c0c-63bfc7d091d6" name="Failed commit: Default" comment="Algo's update" />
     <ignored path="course_works.iws" />
@@ -23,50 +30,7 @@
     <favorites_list name="course_works" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="data_description.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine-Learning/HousingPricePredictionProject/Data/data_description.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8517">
-              <caret line="501" column="0" selection-start-line="501" selection-start-column="0" selection-end-line="501" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="train.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine-Learning/HousingPricePredictionProject/Data/train.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datareader.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine-Learning/HousingPricePredictionProject/datareader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Machine-Learning/HousingPricePredictionProject/script.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -189,16 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -234,19 +188,40 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="course_works">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="course_works">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Machine-Learning">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-  </component>
-  <component name="Push.Settings">
-    <excluded-roots>
-      <path value="$PROJECT_DIR$/Artificial-Intelligence" />
-      <path value="$PROJECT_DIR$/Data-Mining" />
-      <path value="$PROJECT_DIR$/Sentimental-Analysis" />
-    </excluded-roots>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1042,17 +1017,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Machine-Learning/HousingPricePredictionProject/Data/train.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Machine-Learning/HousingPricePredictionProject/datareader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="170">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -1064,6 +1031,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine-Learning/HousingPricePredictionProject/Data/train.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
